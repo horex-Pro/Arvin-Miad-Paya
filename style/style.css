@@ -1,0 +1,179 @@
+:root{
+
+    --background-color:#EEEBDD;
+    --primary-color:#1B1717;
+    --secondry-color:#810000;
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+/* typography */
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Black.woff2);
+    font-family: Iran-Sans-Black;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Bold.woff2);
+    font-family: Iran-Sans-Bold;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-DemiBold.woff2);
+    font-family: Iran-Sans-DemiBold;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-ExtraBold.woff2);
+    font-family: Iran-Sans-ExtraBold;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Light.woff2);
+    font-family: Iran-Sans-Light;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Medium.woff2);
+    font-family: Iran-Sans-Medium;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Regular.woff2);
+    font-family: Iran-Sans-Regular;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-Thin.woff2);
+    font-family: Iran-Sans-Thin;
+
+}
+
+@font-face{
+
+    src: url(../fonts/IRANSansX-UltraLight.woff2);
+    font-family: Iran-Sans-UltraLight;
+
+}
+
+/* components */
+
+a{
+
+    text-decoration: none;
+
+}
+
+ul{
+
+    list-style-type: none;
+
+}
+
+.cta-button{
+
+    width: 148px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+
+}
+
+.container {
+
+    padding: 25px 40px;
+
+}
+
+/* style */
+
+body{
+
+    font-family: Iran-Sans-Medium;
+    direction: rtl;
+
+}
+
+main {
+
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+main header {
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/home/hero-background.jpg);
+
+}
+
+main nav .navbar-top-part .right-part{
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+main nav .navbar-top-part .right-part li img.logo{
+
+    width: 100px;
+
+}
+
+main nav .navbar-top-part .right-part li.search-box{
+
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+
+}
+
+main nav .navbar-top-part .right-part li.search-box input{
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: Iran-Sans-Medium;
+
+}
+
+main nav .navbar-top-part .right-part li.search-box input::placeholder{
+
+    color: #fff;
+
+}
