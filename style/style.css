@@ -1,7 +1,7 @@
 :root{
 
     --background-color:#EEEBDD;
-    --primary-color:#1B1717;
+    --primary-color:hsl(0, 8%, 10%);
     --secondry-color:#810000;
 
 }
@@ -15,91 +15,24 @@
 
 }
 
-/* typography */
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Black.woff2);
-    font-family: Iran-Sans-Black;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Bold.woff2);
-    font-family: Iran-Sans-Bold;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-DemiBold.woff2);
-    font-family: Iran-Sans-DemiBold;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-ExtraBold.woff2);
-    font-family: Iran-Sans-ExtraBold;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Light.woff2);
-    font-family: Iran-Sans-Light;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Medium.woff2);
-    font-family: Iran-Sans-Medium;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Regular.woff2);
-    font-family: Iran-Sans-Regular;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-Thin.woff2);
-    font-family: Iran-Sans-Thin;
-
-}
-
-@font-face{
-
-    src: url(../fonts/IRANSansX-UltraLight.woff2);
-    font-family: Iran-Sans-UltraLight;
-
-}
-
 /* components */
 
+
 a{
-
     text-decoration: none;
-
+    color: #fff;
 }
 
 ul{
-
     list-style-type: none;
-
 }
 
 .cta-button{
 
-    width: 148px;
-    height: 70px;
+    font-family: Iran-Sans-Medium;
+    padding: 10px 20px;
     border: 1px solid #fff;
-    border-radius: 15px;
+    border-radius: 10px;
 
 }
 
@@ -109,12 +42,33 @@ ul{
 
 }
 
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.title span{
+    color: black;
+    font-family: Iran-Sans-Bold;
+    font-size: larger;
+}
+.title div.underline{
+    width: 110px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--secondry-color);
+}
+
 /* style */
 
 body{
 
-    font-family: Iran-Sans-Medium;
     direction: rtl;
+    color: #fff;
+    background-color: var(--background-color);
 
 }
 
@@ -127,37 +81,53 @@ main {
 
 main header {
 
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/home/hero-background.jpg);
+    border-radius: 0 0 10px 10px;
 
 }
+main nav .navbar-top-part{
 
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 main nav .navbar-top-part .right-part{
 
     display: flex;
-    width: 50%;
+    width: 36%;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 main nav .navbar-top-part .right-part li img.logo{
 
-    width: 100px;
+    width: 150px;
 
 }
 
 main nav .navbar-top-part .right-part li.search-box{
 
     width: 200px;
-    height: 70px;
+    height: 50px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     border: 1px solid #fff;
-    border-radius: 15px;
+    border-radius: 10px;
 
+}
+main nav .navbar-top-part .right-part li.search-box .search-logo{
+    width: 20px;
 }
 
 main nav .navbar-top-part .right-part li.search-box input{
@@ -165,15 +135,303 @@ main nav .navbar-top-part .right-part li.search-box input{
     width: 100%;
     height: 100%;
     background-color: transparent;
+    color: #fff;
     border: none;
     outline: none;
+    font-size: small;
     padding: 10px;
     font-family: Iran-Sans-Medium;
 
 }
 
-main nav .navbar-top-part .right-part li.search-box input::placeholder{
+main nav .navbar-top-part .right-part li.search-box input::placeholder{color: #fff;}
 
-    color: #fff;
+main nav .navbar-bottom-part{
 
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    font-family: Iran-Sans-Light;
+    align-items: center;
+
+}
+
+main header .hero{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+main header .hero h1.hero-title{
+
+    margin-bottom: 40px;
+    font-size: 31px;
+    font-family: Iran-Sans-Bold;
+
+}
+
+main header .hero h1.hero-title span{
+
+    padding: 1px 6px;
+    border-radius: 5px;
+    background-color: var(--secondry-color);
+    font-family: Iran-Sans-DemiBold;
+
+}
+
+main header .hero .description{
+
+    font-family: Iran-Sans-Regular1;
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 48%;
+    font-size: 10px;
+
+}
+
+main header .hero .about-cta{
+
+    font-family: Iran-Sans-Medium;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+main section.activity-domain{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+
+}
+main section.activity-domain .cards{
+
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main section.activity-domain .cards .card-1 ,.card-2 ,.card-3 ,.card-4 ,.card-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b1717;
+    border-radius: 10px;
+    width: 200px;
+    height: 320px;
+}
+main section.activity-domain .cards .card-1 .card-1-image ,.card-2 .card-2-image ,.card-3 .card-3-image ,.card-4 .card-4-image ,.card-5 .card-5-image{
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+main section.activity-domain .cards .card-1 .card-1-title ,.card-2 .card-2-title ,.card-3 .card-3-title ,.card-4 .card-4-title ,.card-5 .card-5-title{
+    font-family: Iran-Sans-Bold;
+    font-size: 15px;
+}
+main section.activity-domain .cards .card-1 .card-1-caption ,.card-2 .card-2-caption ,.card-3 .card-3-caption ,.card-4 .card-4-caption ,.card-5 .card-5-caption{
+    font-family: Iran-Sans-Light;
+    text-align: justify;
+    font-size: xx-small;
+}
+main section.activity-domain .cards .card-1 .card-1-link ,.card-2 .card-2-link ,.card-3 .card-3-link ,.card-4 .card-4-link ,.card-5 .card-5-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    font-family: Iran-Sans-Regular1;
+    font-size: smaller;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+main section.activity-domain .cards .card-1{
+    align-self: flex-end;
+}
+main section.activity-domain .cards .card-2{
+    align-self: flex-start;
+}
+main section.activity-domain .cards .card-3{
+    align-self: flex-end;
+}
+main section.activity-domain .cards .card-4{
+    align-self: flex-start;
+}
+main section.activity-domain .cards .card-5{
+    align-self: flex-end;
+}
+
+main section.recruitment{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+main section.recruitment .title .underline{
+    width: 220px;
+}
+main section.recruitment .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+}
+main section.recruitment .content img{
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+}
+main section.recruitment .content .description{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main section.recruitment .content .description h1{
+    font-family: Iran-Sans-DemiBold;
+    font-size: 40px;
+}
+main section.recruitment .content .description p{
+    font-family: Iran-Sans-Regular1;
+    text-align: justify;
+    font-size: small;
+    width: 50%;
+}
+
+main section.photo-gallery{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+main section.photo-gallery .title .underline{
+    width: 120px;
+}
+main section.photo-gallery .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+}
+main footer{
+    padding: 25px 40px 0 40px;
+    height: 70vh;
+    margin: 0 40px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+main footer .content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main footer .content .col1 , .col2 .col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+}
+main footer .content .col1{
+    text-align: justify;
+    font-size: smaller;
+    font-family: Iran-Sans-Thin;
+}
+main footer .content .col1 img{
+    width: 50%;
+}
+main footer .content .col2{
+    font-family: Iran-Sans-Light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+}
+main footer .content .col3{
+    font-family: Iran-Sans-Light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+}
+main footer .content .col2 div{
+
+    font-family: Iran-Sans-Medium;
+    font-size: x-large;
+    margin: 10px 0;
+
+}
+main footer .content .col2 p{
+
+    font-family: Iran-Sans-Regular1;
+    font-size: medium;
+    margin: 3px 0;
+
+}
+main footer .content .col3 div{
+
+    font-family: Iran-Sans-Medium;
+    font-size: x-large;
+    margin: 10px 0;
+
+}
+main footer .content .col3 p{
+
+    font-family: Iran-Sans-Regular1;
+    font-size: medium;
+    margin: 3px 0;
+
+}
+main footer .copyright{
+    font-family: Iran-Sans-Medium;
+    width: 60%;
+    height: 20%;
+    border-radius: 20px 20px 0 0;
+    background-color: var(--secondry-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
