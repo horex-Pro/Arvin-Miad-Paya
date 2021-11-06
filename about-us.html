@@ -23,9 +23,9 @@
                             <img src="images/logo.png" alt="آروین میعاد پایا" class="logo">
                         </li>
                         
-                        <li class="search-box">
-                            <img src="images/search-icon.svg" class="search-logo" alt="آروین میعاد پایا">
-                            <input type="text" placeholder="جستجو...">
+                        <li class="search-box" id="searchBox">
+                            <img src="images/search-icon.svg" class="search-logo" alt="آروین میعاد پایا" id="searchIcon">
+                            <input type="text" placeholder="جستجو..." name="search" id="searchInput">
                         </li>
 
                     </ul>
@@ -37,7 +37,7 @@
                 <ul class="navbar-bottom-part">
 
                     <li><a href="index.html">خانه</a></li>
-                    <li><a href="#">درباره ما</a></li>
+                    <li class="active"><a href="#">درباره ما</a></li>
                     <li><a href="#">دپارتمان برق</a></li>
                     <li><a href="">دپارتمان گاز</a></li>
                     <li><a href="">دپارتمان مدیریت انرژی</a></li>
@@ -52,7 +52,7 @@
 
             <div class="hero">
 
-               <h1 class="hero-title">دکتر سید حسینی مدیر مجموعه <span>آروین میعاد</span></h1>
+               <h1 class="hero-title">دکتر سید حسینی مدیر مجموعه <span style='mask-image: paint(smooth-corners)'> آروین میعاد پایا</span></h1>
 
                <div class="description">آروین میعاد پایا با تکیه بر نیروی جوان، متخصص ومتعهد خود برآن شد که برای ارتقا و پیشرفت کشور، با ابتکار و نوآوری پلی بین صنعت و دانش برقرار کند.</div>
 
@@ -95,5 +95,9 @@
         </footer>
 
     </main>
+
+    <script src="js/cornerSmoothing.js"></script>
+    <script src="js/app.js" ></script>
+
 </body>
 </html>

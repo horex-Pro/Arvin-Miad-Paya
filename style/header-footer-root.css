@@ -12,6 +12,8 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
+    overflow-x: hidden;
+
 
 }
 body{
@@ -40,7 +42,13 @@ ul{
 
 .cta-button{
 
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Iran-Sans-Medium;
+    font-size: 18px;
     padding: 10px 20px;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -49,7 +57,7 @@ ul{
 
 .container {
 
-    padding: 25px 40px;
+    padding: 40px 80px;
 
 }
 
@@ -77,6 +85,7 @@ main header {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -97,7 +106,7 @@ main nav .navbar-top-part{
 main nav .navbar-top-part .right-part{
 
     display: flex;
-    width: 36%;
+    width: 32%;
     align-items: center;
     justify-content: space-between;
 
@@ -111,13 +120,14 @@ main nav .navbar-top-part .right-part li img.logo{
 
 main nav .navbar-top-part .right-part li.search-box{
 
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 60px;
     padding: 0 10px;
     display: flex;
     align-items: center;
     border: 1px solid #fff;
     border-radius: 10px;
+    transition: all 0.3s;
 
 }
 main nav .navbar-top-part .right-part li.search-box .search-logo{
@@ -132,13 +142,18 @@ main nav .navbar-top-part .right-part li.search-box input{
     color: #fff;
     border: none;
     outline: none;
-    font-size: small;
+    font-size: 15px;
     padding: 10px;
-    font-family: Iran-Sans-Medium;
+    font-family: Iran-Sans-Light;
 
 }
 
-main nav .navbar-top-part .right-part li.search-box input::placeholder{color: #fff;}
+main nav .navbar-top-part .right-part li.search-box input::placeholder
+{
+
+    color: #fff;
+
+}
 
 main nav .navbar-bottom-part{
 
@@ -152,21 +167,53 @@ main nav .navbar-bottom-part{
 
 }
 
+main nav .navbar-bottom-part li.active{
+
+    font-weight: bold;
+    position: relative;
+
+}
+
+main nav .navbar-bottom-part li.active::after{
+
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 30px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--secondry-color);
+
+}
+
+main nav .navbar-bottom-part li {
+
+    transition: all 0.2s;
+
+}
+
+main nav .navbar-bottom-part li:hover{
+
+    font-weight: bold;
+
+}
+
 main header .hero{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     width: 100%;
-    height: 100%;
+    height: 70%;
 
 }
 
 main header .hero h1.hero-title{
 
-    margin-bottom: 40px;
-    font-size: 31px;
+    font-size: 33px;
     font-family: Iran-Sans-Bold;
 
 }
@@ -176,31 +223,39 @@ main header .hero h1.hero-title span{
     padding: 1px 6px;
     border-radius: 5px;
     background-color: var(--secondry-color);
-    font-family: Iran-Sans-DemiBold;
+    font-family: Iran-Sans-Black;
+    --smooth-corners: 12;
+        width: 30px;
+        height: 40px !important;
+    mask-image: paint(smooth-corners);
+    -webkit-mask-image: paint(smooth-corners);
+    padding: 6px;
 
 }
 
 main header .hero .description{
 
-    font-family: Iran-Sans-Regular1;
-    margin-bottom: 40px;
+    font-family: Iran-Sans-Medium;
+    font-weight: 400;
     text-align: justify;
-    width: 48%;
-    font-size: 10px;
+    width: 46%;
+    font-size: 16px;
+    line-height: 50px;
 
 }
 
 main header .hero .about-cta{
 
     font-family: Iran-Sans-Medium;
-    width: 140px;
-    height: 50px;
+    width: 130px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 10px 20px;
+    font-size: 15px;
 
 }
 
@@ -234,7 +289,8 @@ main footer .content .col1 , .col2 .col3{
 main footer .content .col1{
     text-align: justify;
     font-size: smaller;
-    font-family: Iran-Sans-Thin;
+    font-family: Iran-Sans-Medium;
+    line-height: 30px;
 }
 main footer .content .col1 img{
     width: 50%;
@@ -276,7 +332,7 @@ main footer .content .col3 div{
 }
 main footer .content .col3 p{
 
-    font-family: Iran-Sans-Regular1;
+    font-family: Iran-Sans-Light;
     font-size: medium;
     margin: 3px 0;
 
@@ -284,7 +340,7 @@ main footer .content .col3 p{
 main footer .copyright{
     font-family: Iran-Sans-Medium;
     width: 60%;
-    height: 20%;
+    height: 15%;
     border-radius: 20px 20px 0 0;
     background-color: var(--secondry-color);
     display: flex;

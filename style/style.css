@@ -7,6 +7,10 @@ main section.activity-domain{
     width: 100%;
     height: 100vh;
     margin-top: 100px;
+    background-image: url(../images/home/bacground-image.png);
+    background-size: contain;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
 
 }
 main section.activity-domain .cards{
@@ -55,21 +59,19 @@ main section.activity-domain .cards .card-1 .card-1-link ,.card-2 .card-2-link ,
     border: 1px solid #fff;
     border-radius: 10px;
 }
-main section.activity-domain .cards .card-1{
+
+main section.activity-domain .cards .card:nth-child(odd){
+
     align-self: flex-end;
+
 }
-main section.activity-domain .cards .card-2{
+
+main section.activity-domain .cards .card:nth-child(even){
+
     align-self: flex-start;
+
 }
-main section.activity-domain .cards .card-3{
-    align-self: flex-end;
-}
-main section.activity-domain .cards .card-4{
-    align-self: flex-start;
-}
-main section.activity-domain .cards .card-5{
-    align-self: flex-end;
-}
+
 
 main section.recruitment{
     width: 100%;
@@ -79,7 +81,24 @@ main section.recruitment{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+
 }
+
+main section.recruitment::before{
+
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 100vh;
+    transform: rotate(5deg);
+    z-index: -1;
+    background-image: url(../images/home/bacground-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 -100;
+
+}
+
 main section.recruitment .title .underline{
     width: 220px;
 }
