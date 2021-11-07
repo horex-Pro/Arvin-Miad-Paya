@@ -12,14 +12,13 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
-    overflow-x: hidden;
-
 
 }
 body{
 
     direction: rtl;
     color: #fff;
+    overflow-x: hidden;
     background-color: var(--background-color);
 
 }
@@ -181,7 +180,7 @@ main nav .navbar-bottom-part li.active::after{
     top: 30px;
     right: 50%;
     transform: translateX(50%);
-    width: 30px;
+    width: 40px;
     height: 5px;
     border-radius: 15px;
     background-color: var(--secondry-color);
@@ -214,7 +213,7 @@ main header .hero{
 main header .hero h1.hero-title{
 
     font-size: 33px;
-    font-family: Iran-Sans-Bold;
+    font-family: Iran-Sans-Black;
 
 }
 
@@ -223,13 +222,13 @@ main header .hero h1.hero-title span{
     padding: 1px 6px;
     border-radius: 5px;
     background-color: var(--secondry-color);
-    font-family: Iran-Sans-Black;
-    --smooth-corners: 12;
-        width: 30px;
-        height: 40px !important;
+    font-family: Iran-Sans-Bold;
+    --smooth-corners: 15;
+    width: 30px;
+    height: 40px !important;
     mask-image: paint(smooth-corners);
     -webkit-mask-image: paint(smooth-corners);
-    padding: 6px;
+    padding: 3px 6px;
 
 }
 
@@ -240,7 +239,7 @@ main header .hero .description{
     text-align: justify;
     width: 46%;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 40px;
 
 }
 
