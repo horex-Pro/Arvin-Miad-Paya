@@ -225,9 +225,8 @@ main header .hero h1.hero-title span{
     font-family: Iran-Sans-Bold;
     --smooth-corners: 15;
     width: 30px;
-    height: 40px !important;
+    height: 40px;
     mask-image: paint(smooth-corners);
-    -webkit-mask-image: paint(smooth-corners);
     padding: 3px 6px;
 
 }
