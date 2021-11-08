@@ -164,3 +164,6 @@ main .form-content .col2 img{
 button:disabled{
      cursor: not-allowed;
 }
+.inactive{
+     display: none !important;
+}
