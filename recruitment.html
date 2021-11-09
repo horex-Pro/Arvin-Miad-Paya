@@ -15,213 +15,198 @@
      <main class="spaces">
 
           <div class="form-content containers">
+               <div class="main-col">
 
-               <div class="col1 one">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>اطلاعات شخصی</small>
-                    </div>
-
-
-                    <form action="#" id="pageone" class="row2 row2--1">
-
-                         <input type="text" class="w-100" name="fullname" id="fullname" placeholder="نام و نام خانوادگی">
-                         <div class="w-100"><label for="datying">تاریخ تولد </label> <input type="date" style="width: 88%;" name="date" id="datying"></div>
-                         <input type="number" class="w-100" name="phonenumber" id="phonenumber" placeholder="شماره تماس">
-                         <div class="rowsss">
-                              <div class="radio gender-radio">
-                                   <label for="gender">جنسیت</label>
-
-                                   <div class="inputz">
-                                        <input type="radio" name="gender" id="gender">آقا     
-                                        <input type="radio" name="gender" id="gender">خانم
+                    <div class="col1" id="one">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>اطلاعات شخصی</small>
+                         </div>
+                         <form action="#" id="pageone" class="row2 row2--1">
+     
+                              <input type="text" class="w-100" name="fullname" id="fullname" placeholder="نام و نام خانوادگی">
+                              <input type="date" class="w-50" title="تاریخ تولد" name="date" id="date">
+                              <input type="number" class="w-50" name="phonenumber" id="phonenumber" placeholder="شماره تماس">
+                              <div class="rowsss w-100">
+                                   <div class="radio gender-radio">
+                                        <label class="gender" for="gender">جنسیت</label>
+     
+                                        <div class="inputz">
+                                             <label for="male">آقا</label><input type="radio" name="male" id="male">
+                                             <label for="male">خانم</label><input type="radio" name="female" id="female">
+                                        </div>
+     
                                    </div>
-
-                              </div>
-                              <div class="radio married-radio">
-                                   <label for="gender">وظعیت تاهل</label>
-
-                                   <div class="inputz">
-                                        <input type="radio" name="marriedstatus" id="maried">متاهل     
-                                        <input type="radio" name="marriedstatus" id="maried">مجرد
+                                   <div class="radio married-radio">
+                                        <label class="married" for="gender">وضعیت تاهل</label>
+     
+                                        <div class="inputz">
+                                             <input type="radio" name="marriedstatus" id="maried">متاهل     
+                                             <input type="radio" name="marriedstatus" id="maried">مجرد
+                                        </div>
+     
                                    </div>
-
                               </div>
+                    </form>
+                    <div class="row3">
+                         <button id="previous1" disabled type="button">قبلی</button>
+                         <button id="next1" type="submit"><a href="#two">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="two">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>اطلاعات تکمیلی</small>
                          </div>
-                         <div class="row3">
-                              <button id="previous1" type="button">قبلی</button>
-                              <button id="next1" type="submit">بعدی</button>
+     
+     
+                         <form action="#" id="pageTwo" class="row2 row2--2">
+     
+                              <input type="number" class="w-50" name="" id="" placeholder="کد ملی">
+                              <input type="email" class="w-50" name="" id="" placeholder="ایمیل">
+                              <input type="number" class="w-50" name="" id="" placeholder="شماره شناسنامه">
+                              <input type="number" class="w-50" name="" id="" placeholder="تلفن منزل">
+                              <input type="text" class="w-50" name="" id="" placeholder="نام پدر">
+                              <input type="file" class="w-50" name="" id="" placeholder="عکس پرسنلی">
+                              <!-- این یدونه بالایی رو هرکاری کردم درست نشد -->
+                              <input type="text" class="w-100" name="" id="" placeholder="آدرس">
+                    </form>
+                    <div class="row3">
+                         <button id="previous2" type="button"><a href="#one">قبلی</a></button>
+                         <button id="next2" type="submit"><a href="#three">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="three">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>سوابق کاری</small>
                          </div>
-               </form>
-               </div>
-               <div class="col1 inactive two">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>اطلاعات تکمیلی</small>
+     
+     
+                         <form action="#" id="pageThree" class="row2 row2--3">
+     
+                              <input type="text" class="w-50" name="" id="" placeholder="نام شرکت">
+                              <input type="number" class="w-50" name="" id="" placeholder="حقوق دریافتی">
+                              <input type="text" class="w-50" name="" id="" placeholder="زمینه فعالیت">
+                              <input type="text" class="w-50" name="" id="" placeholder="دلیل قطع همکاری">
+                              <input type="text" class="w-50" name="" id="" placeholder="سمت">
+                              <input type="date" class="w-25" name="" title="تاریخ شروع" id="" placeholder="تاریخ شروع">
+                              <input type="date" class="w-25" name="" title="تاریخ پایان" id="" placeholder="تاریخ پایان">
+                              <input type="text" class="w-75" name="" id="" placeholder="آدرس">
+                              <input type="button" class="w-25" name="" id="" value="مورد جدید">
+                    </form>
+                    <div class="row3">
+                         <button id="previous3" type="button"><a href="#two">قبلی</a></button>
+                         <button id="next3" type="submit"><a href="#four">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="four">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>آشنایی با زبان های خارجی</small>
+                         </div>
+     
+     
+                         <form action="#" id="pageFour" class="row2 row2--4">
+     
+                              <input type="text" class="w-100" placeholder="نام زبان">
+                              <select name="reading" id="reading" class="reading w-50">
+                                   <option class="important" value="title">سطح خواندن</option>
+                                   <option value="great">عالی</option>
+                                   <option value="good">خوبی</option>
+                                   <option value="middle">متوسط</option>
+                                   <option value="weak">ضعیف</option>
+                              </select>
+                              <select name="writing" id="writing" class="writing w-50">
+                                   <option class="important" value="title">سطح نوشتن</option>
+                                   <option value="great">عالی</option>
+                                   <option value="good">خوبی</option>
+                                   <option value="middle">متوسط</option>
+                                   <option value="weak">ضعیف</option>
+                              </select>
+                              <select name="conversation" id="conversation" class="conversation w-50">
+                                   <option class="important" value="title">سطح مکالمه</option>
+                                   <option value="great">عالی</option>
+                                   <option value="good">خوبی</option>
+                                   <option value="middle">متوسط</option>
+                                   <option value="weak">ضعیف</option>
+                              </select>
+                              <input type="button" class="w-50" value="افزودن مورد جدید">
+                    </form>
+                    <div class="row3">
+                         <button id="previous4" type="button"><a href="#three">قبلی</a></button>
+                         <button id="next4" type="submit"><a href="#five">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="five">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>دوره های تخصصی گذارنده شده</small>
+                         </div>
+     
+                         <form action="#" id="pageFive" class="row2 row2--5">
+     
+                              <input type="text" class="w-100" name="" id="" placeholder="نام نرم افزار">
+                              <select name="familiarity" id="familiarity" class="familiarity w-50">
+                                   <option class="important" value="title">میزان آشنایی</option>
+                                   <option value="great">عالی</option>
+                                   <option value="good">خوبی</option>
+                                   <option value="middle">متوسط</option>
+                                   <option value="weak">ضعیف</option>
+                              </select>
+                              <input type="button" class="w-50" name="" id="" value="افزودن مورد جدید">
+                    </form>
+                    <div class="row3">
+                         <button id="previous5" type="button"><a href="#four">قبلی</a></button>
+                         <button id="next5" type="submit"><a href="#six">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="six">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>سوابق تحصیلی</small>
+                         </div>
+     
+     
+                         <form action="#" id="pageSix" class="row2 row2--6">
+     
+                              <input type="text" name="" id="" placeholder="مقطع تحصیلی" class="w-50">
+                              <input type="text" name="" id="" placeholder="معدل" class="w-25">
+                              <input type="text" name="" id="" placeholder="گرایش" class="w-25">
+                              <input type="text" name="" id="" placeholder="نام دانشگاه" class="w-50">
+                              <input type="date" name="" id="" title="تاریخ شروع" placeholder="شروع" class="w-25">
+                              <input type="date" name="" id="" title="تاریخ پایان" placeholder="پایان" class="w-25">
+                              <input type="text" name="" id="" placeholder="رشته تحصیلی" class="w-50">
+                              <input type="button" name="" id="" value="افزودن مورد جدید" class="w-50">
+                    </form>
+                    <div class="row3">
+                         <button id="previous6" type="button"><a href="#five">قبلی</a></button>
+                         <button id="next6" type="submit"><a href="#seven">بعدی</a></button>
+                    </div>
+                    </div>
+                    <div class="col1" id="seven">
+                         <div class="row1">
+                              <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
+                              <small>آشنایی با نرم افزار های تخصصی</small>
+                         </div>
+     
+     
+                         <form action="#" id="pageSeven" class="row2 row2--7">
+     
+                              <input type="text" class="w-100" name="" id="" placeholder="نام نرم افزار">
+                              <input type="text" class="w-50" name="" id="" placeholder="محل برگزاری">
+                              <input type="date" class="w-50" name="" id="" title="تاریخ دوره">
+                              <input type="text" class="w-50" name="" id="" placeholder="مدت دوره">
+                              <input type="button" class="w-50" name="" id="" value="افزودن مورد جدید">
+     
+                              <div class="row3">
+                                   <button id="previous7" type="button"><a href="#six">قبلی</a></button>
+                                   <button id="next7" type="submit">ثبت</button>
+                              </div>
+                    </form>
                     </div>
 
-
-                    <form action="#" id="pageTwo" class="row2 row2--2">
-
-                         <input type="number" class="w-50" name="" id="" placeholder="کد ملی">
-                         <input type="email" class="w-50" name="" id="" placeholder="ایمیل">
-                         <input type="number" class="w-50" name="" id="" placeholder="شماره شناسنامه">
-                         <input type="number" class="w-50" name="" id="" placeholder="تلفن منزل">
-                         <input type="text" class="w-50" name="" id="" placeholder="نام پدر">
-                         <input type="file" class="w-50" name="" id="" placeholder="عکس پرسنلی">
-                         <!-- این یدونه بالایی رو هرکاری کردم درست نشد -->
-                         <input type="text" class="w-100" name="" id="" placeholder="آدرس">
-
-                         <div class="row3">
-                              <button id="previous2" type="button">قبلی</button>
-                              <button id="next2" type="submit">بعدی</button>
-                         </div>
-               </form>
                </div>
-               <div class="col1 inactive three">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>سوابق کاری</small>
-                    </div>
-
-
-                    <form action="#" id="pageThree" class="row2 row2--3">
-
-                         <input type="text" class="w-50" name="" id="" placeholder="نام شرکت">
-                         <input type="number" class="w-50" name="" id="" placeholder="حقوق دریافتی">
-                         <input type="text" class="w-50" name="" id="" placeholder="زمینه فعالیت">
-                         <input type="text" class="w-50" name="" id="" placeholder="دلیل قطع همکاری">
-                         <input type="text" class="w-50" name="" id="" placeholder="سمت">
-                         <input type="date" class="w-25" name="" title="تاریخ شروع" id="" placeholder="تاریخ شروع">
-                         <input type="date" class="w-25" name="" title="تاریخ پایان" id="" placeholder="تاریخ پایان">
-                         <input type="text" class="w-75" name="" id="" placeholder="آدرس">
-                         <input type="button" class="w-25" name="" id="" value="مورد جدید">
-
-
-                         <div class="row3">
-                              <button id="previous3" type="button">قبلی</button>
-                              <button id="next3" type="submit">بعدی</button>
-                         </div>
-               </form>
-               </div>
-               <div class="col1 inactive four">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>آشنایی با زبان های خارجی</small>
-                    </div>
-
-
-                    <form action="#" id="pageFour" class="row2 row2--4">
-
-                         <input type="text" class="w-100" placeholder="نام زبان">
-                         <select name="reading" id="reading" class="reading w-50">
-                              <option class="important" value="title">سطح خواندن</option>
-                              <option value="great">عالی</option>
-                              <option value="good">خوبی</option>
-                              <option value="middle">متوسط</option>
-                              <option value="weak">ضعیف</option>
-                         </select>
-                         <select name="writing" id="writing" class="writing w-50">
-                              <option class="important" value="title">سطح نوشتن</option>
-                              <option value="great">عالی</option>
-                              <option value="good">خوبی</option>
-                              <option value="middle">متوسط</option>
-                              <option value="weak">ضعیف</option>
-                         </select>
-                         <select name="conversation" id="conversation" class="conversation w-50">
-                              <option class="important" value="title">سطح مکالمه</option>
-                              <option value="great">عالی</option>
-                              <option value="good">خوبی</option>
-                              <option value="middle">متوسط</option>
-                              <option value="weak">ضعیف</option>
-                         </select>
-                         <input type="button" class="w-50" value="افزودن مورد جدید">
-
-                         <div class="row3">
-                              <button id="previous4" type="button">قبلی</button>
-                              <button id="next4" type="submit">بعدی</button>
-                         </div>
-               </form>
-               </div>
-               <div class="col1 inactive five">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>دوره های تخصصی گذارنده شده</small>
-                    </div>
-
-                    <form action="#" id="pageFive" class="row2 row2--5">
-
-                         <input type="text" class="w-100" name="" id="" placeholder="نام نرم افزار">
-                         <select name="familiarity" id="familiarity" class="familiarity w-50">
-                              <option class="important" value="title">میزان آشنایی</option>
-                              <option value="great">عالی</option>
-                              <option value="good">خوبی</option>
-                              <option value="middle">متوسط</option>
-                              <option value="weak">ضعیف</option>
-                         </select>
-                         <input type="button" class="w-50" name="" id="" value="افزودن مورد جدید">
-
-                         <div class="row3">
-                              <button id="previous5" type="button">قبلی</button>
-                              <button id="next5" type="submit">بعدی</button>
-                         </div>
-               </form>
-               </div>
-               <div class="col1 inactive six">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>سوابق تحصیلی</small>
-                    </div>
-
-
-                    <form action="#" id="pageSix" class="row2 row2--6">
-
-                         <input type="text" name="" id="" placeholder="مقطع تحصیلی" class="w-50">
-                         <input type="text" name="" id="" placeholder="معدل" class="w-25">
-                         <input type="text" name="" id="" placeholder="گرایش" class="w-25">
-                         <input type="text" name="" id="" placeholder="نام دانشگاه" class="w-50">
-                         <input type="date" name="" id="" title="تاریخ شروع" placeholder="شروع" class="w-25">
-                         <input type="date" name="" id="" title="تاریخ پایان" placeholder="پایان" class="w-25">
-                         <input type="text" name="" id="" placeholder="رشته تحصیلی" class="w-50">
-                         <input type="button" name="" id="" value="افزودن مورد جدید" class="w-50">
-
-                         <div class="row3">
-                              <button id="previous6" type="button">قبلی</button>
-                              <button id="next6" type="submit">بعدی</button>
-                         </div>
-               </form>
-               </div>
-               <div class="col1 inactive seven">
-                    <div class="row1">
-                         <h1>فرم استخدام در شرکت <span>آروین میعاد پایا</span></h1>
-                         <small>شنایی با نرم افزار های تخصصی</small>
-                    </div>
-
-
-                    <form action="#" id="pageSeven" class="row2 row2--7">
-
-                         <input type="text" class="w-100" name="" id="" placeholder="نام نرم افزار">
-                         <input type="text" class="w-50" name="" id="" placeholder="محل برگزاری">
-                         <input type="date" class="w-50" name="" id="" title="تاریخ دوره">
-                         <input type="text" class="w-50" name="" id="" placeholder="مدت دوره">
-                         <input type="button" class="w-50" name="" id="" value="افزودن مورد جدید">
-
-                         <div class="row3">
-                              <button id="previous7" type="button">قبلی</button>
-                              <button id="next7" type="submit">بعدی</button>
-                         </div>
-               </form>
-               </div>
-
-
-
-
-
-
-
-
-
-
                <div class="col2"><img src="images/Mask Group.png" alt=""></div>
           </div>
 

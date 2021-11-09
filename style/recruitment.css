@@ -45,22 +45,33 @@ main .form-content{
      background-color: var(--primary-color);
      border-radius: 15px;
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
+
 }
-main .form-content .col1{
+main .form-content .main-col{
      width: 50%;
-     height: 100%;
+     height: 77vh;
+     overflow: hidden;
+}
+main .form-content .main-col .col1{
+     margin-bottom: 10px;
+     width: 100%;
+     height: 77vh;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
 }
-main .form-content .col1 .row1{
+main .form-content .main-col .col1 .row1{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
      width: 100%;
      height: 20%;
 }
-main .form-content .col1 .row2{
+main .form-content .main-col .col1 .row2{
      width: 100%;
      height: 65%;
      display: flex;
@@ -68,7 +79,7 @@ main .form-content .col1 .row2{
      justify-content: space-between;
      align-items: center;
 }
-main .form-content .col1 .row2 input{
+main .form-content .main-col .col1 .row2 input{
      border: 0;
      font-size: small;
      background-color: #E2DFD2;
@@ -77,43 +88,43 @@ main .form-content .col1 .row2 input{
      padding: 0 10px;
      height: 40px;
 }
-main .form-content .col1 .row2--1 .rowsss{
+main .form-content .main-col .col1 .row2--1 .rowsss{
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
 }
-main .form-content .col1 .row2--1 .rowsss input{
+main .form-content .main-col .col1 .row2--1 .rowsss input{
      box-shadow: none;
 }
-main .form-content .col1 .row2--1 .rowsss .radio {
+main .form-content .main-col .col1 .row2--1 .rowsss .radio {
      width: 120px;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
 }
-main .form-content .col1 .row2--1 .rowsss .radio .inputz{
+main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz{
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
 }
-main .form-content .col1 .row2--1 .rowsss .radio label{
+main .form-content .main-col .col1 .row2--1 .rowsss .radio label.gender , label.married{
      padding: 6px 10px;
      font-family: Iran-Sans-Regular1;
      background-color: #E2DFD2;
      border-radius: 7px;
      color: #717171;
 }
-main .form-content .col1 .row3{
+main .form-content .main-col .col1 .row3{
      display: flex;
      justify-content: center;
      align-items: center;
      width: 100%;
      height: 15%;
 }
-main .form-content .col1 .row3 button{
+main .form-content .main-col .col1 .row3 button{
      display: flex;
      align-items: center;
      justify-content: space-evenly;
@@ -127,7 +138,7 @@ main .form-content .col1 .row3 button{
      border-radius: 6px;
      color: #fff;
 }
-main .form-content .col1 .row3 button a{
+main .form-content .main-col .col1 .row3 button a{
      width: 100%;
      height: 100%;
      display: flex;
@@ -135,17 +146,18 @@ main .form-content .col1 .row3 button a{
      justify-content: space-evenly;
      font-family: Iran-Sans-Thin;
 }
-main .form-content .col1 .row1 h1{
+main .form-content .main-col .col1 .row1 h1{
     font-family: Iran-Sans-Bold;
      font-size: 30px;
 }
-main .form-content .col1 .row1 h1 span{
+main .form-content .main-col .col1 .row1 h1 span{
     font-family: Iran-Sans-Black;
      padding: 1px 6px;
      background-color: var(--secondry-color);
      border-radius: 12px;
 }
-main .form-content .col1 .row1 small{
+main .form-content .main-col .col1 .row1 small{
+     margin-top: 3px;
      font-size: small;
      font-family: Iran-Sans-Medium;
 }
@@ -164,6 +176,6 @@ main .form-content .col2 img{
 button:disabled{
      cursor: not-allowed;
 }
-.inactive{
-     display: none !important;
+.row2--7{
+     height: 85% !important;
 }
