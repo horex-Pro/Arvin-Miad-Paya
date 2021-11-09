@@ -1,4 +1,23 @@
 
+:-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 main section.activity-domain{
 
     display: flex;
@@ -22,7 +41,7 @@ main section.activity-domain .cards{
     align-items: center;
 
 }
-main section.activity-domain .cards .card-1 ,.card-2 ,.card-3 ,.card-4 ,.card-5{
+main section.activity-domain .cards .card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,7 +51,44 @@ main section.activity-domain .cards .card-1 ,.card-2 ,.card-3 ,.card-4 ,.card-5{
     border-radius: 10px;
     width: 200px;
     height: 320px;
+    transition: all 0.2s;
 }
+
+.card:hover{
+
+    transform: scale(1.1) !important;
+    border: 5px solid #810000 !important;
+    background-color: #0c0c0c !important;
+    box-shadow: 0 0 15px rgb(126, 126, 126);
+
+}
+
+.card-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    font-family: Iran-Sans-Regular1;
+    font-size: smaller;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-link,.cta-button{
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card-link:hover , .cta-button:hover{
+
+    background-color: #fff;
+    color: var(--primary-color);
+
+}
+
 main section.activity-domain .cards .card-1 .card-1-image ,.card-2 .card-2-image ,.card-3 .card-3-image ,.card-4 .card-4-image ,.card-5 .card-5-image{
     width: 100%;
     height: 35%;
@@ -47,17 +103,6 @@ main section.activity-domain .cards .card-1 .card-1-caption ,.card-2 .card-2-cap
     font-family: Iran-Sans-Light;
     text-align: justify;
     font-size: xx-small;
-}
-main section.activity-domain .cards .card-1 .card-1-link ,.card-2 .card-2-link ,.card-3 .card-3-link ,.card-4 .card-4-link ,.card-5 .card-5-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 35px;
-    font-family: Iran-Sans-Regular1;
-    font-size: smaller;
-    border: 1px solid #fff;
-    border-radius: 10px;
 }
 
 main section.activity-domain .cards .card:nth-child(odd){
