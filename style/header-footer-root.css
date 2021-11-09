@@ -166,6 +166,13 @@ main nav .navbar-bottom-part{
 
 }
 
+
+main nav .navbar-bottom-part li {
+
+    transition: all 0.2s;
+
+}
+
 main nav .navbar-bottom-part li.active{
 
     font-weight: bold;
@@ -184,12 +191,6 @@ main nav .navbar-bottom-part li.active::after{
     height: 5px;
     border-radius: 15px;
     background-color: var(--secondry-color);
-
-}
-
-main nav .navbar-bottom-part li {
-
-    transition: all 0.2s;
 
 }
 
