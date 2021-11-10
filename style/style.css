@@ -169,6 +169,10 @@ main section.photo-gallery{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    background-image: url(../images/home/bacground-image.png);
+    background-size: contain;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
 }
 main section.photo-gallery .title .underline{
     width: 120px;
@@ -178,7 +182,21 @@ main section.photo-gallery .content{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 90%;
     border-radius: 15px;
     background-color: var(--primary-color);
+}
+
+main section.photo-gallery .content .swiper{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+main section.photo-gallery .content .swiper .swiper-button-prev::after , .swiper-button-next::after {
+
+    color: #810000;
+
 }

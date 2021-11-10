@@ -6,4 +6,34 @@ main header {
      background-position: 0 -200px;
      background-repeat: no-repeat;
      background-image: url(../images/about-us-background.jpg) !important;
+
  }
+
+section.about-us{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/abou-us-section.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: Iran-Sans-Medium;
+
+}
+
+section.about-us p {
+
+    width: 100%;
+    height: 100%;
+    background-color: #1b1717a1;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: justify;
+    line-height: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 15px #1b1717a1;
+
+}
