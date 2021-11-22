@@ -69,7 +69,15 @@ main .form-content{
 main .form-content .main-col{
      width: 70%;
      height: 100%;
-     overflow: hidden;
+     overflow-y: scroll;
+}
+main .form-content .main-col::-webkit-scrollbar {
+     width: 5px;
+     background-color: transparent;
+}
+main .form-content .main-col::-webkit-scrollbar-thumb{
+     border-radius: 100px;
+     background-color: #000;
 }
 main .form-content .main-col .col1{
      margin-bottom: 40px;
@@ -79,6 +87,8 @@ main .form-content .main-col .col1{
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
+     border-bottom: 1px solid red;
+     border-radius: 15px;
 }
 main .form-content .main-col .col1 .row1{
      display: flex;
@@ -90,7 +100,7 @@ main .form-content .main-col .col1 .row1{
 }
 main .form-content .main-col .col1 .row2{
      width: 100%;
-     height: 65%;
+     height: 80%;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
@@ -178,11 +188,8 @@ main .form-content .col2{
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url(../images/recruitment/prophsee-journals-vD9Gb_H7RR8-unsplash.jpg);
+     background-image: url(../images/recruitment/hannah-olinger-8eSrC43qdro-unsplash.jpg);
 }
 button:disabled{
      cursor: not-allowed;
-}
-.row2--7{
-     height: 85% !important;
 }
