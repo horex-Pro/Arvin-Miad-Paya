@@ -1,39 +1,67 @@
 main.spaces{
+
      width: 100%;
      height: 100vh;
      padding: 30px 40px;
-}
-.containers{
-     padding: 30px;
+
 }
 
+.containers{
+
+     padding: 30px;
+
+}
+
+
 .w-100{
+
      width: 100%;
      margin: 0 0 0 10px;
+
 }
+
 .w-75{
+
      width: 74%;
      margin: 0 0 0 10px;
+
 }
+
 .w-50{
+
      width: 46%;
      margin: 0 0 0 10px;
+
 }
+
 .w-25{
+
      width: 20%;
      margin: 0 0 0 10px;
+
 }
+
 .w-125{
+
      width: 10%;
      margin: 0 0 0 10px;
+
 }
+
 .inField{
+
      margin: 5px;
+
 }
+
 fieldset{
+
      border-radius: 5px;
+
 }
+
 input{
+
      font-family: Iran-Sans-Regular1;
      border: 0;
      font-size: small;
@@ -42,8 +70,11 @@ input{
      border-radius: 10px;
      padding: 0 10px;
      height: 40px;
+
 }
+
 select{
+
      color: #717171;
      font-size: small;
      background-color: #E2DFD2;
@@ -51,12 +82,18 @@ select{
      font-family: Iran-Sans-Regular1;
      border: 0;
      border-radius: 10px;
+
 }
+
 select option{
-    font-family: Iran-Sans-Medium;
+
+     font-family: Iran-Sans-Medium;
      font-size: 15px;
+
 }
+
 main .form-content{
+
      width: 100%;
      height: 100%;
      background-color: var(--primary-color);
@@ -66,20 +103,31 @@ main .form-content{
      align-items: center;
 
 }
+
 main .form-content .main-col{
+
      width: 70%;
      height: 100%;
      overflow-y: scroll;
+
 }
+
 main .form-content .main-col::-webkit-scrollbar {
+
      width: 5px;
      background-color: transparent;
+
 }
+
 main .form-content .main-col::-webkit-scrollbar-thumb{
+
      border-radius: 100px;
      background-color: #000;
+
 }
+
 main .form-content .main-col .col1{
+
      margin-bottom: 40px;
      width: 100%;
      height: 77vh;
@@ -89,60 +137,87 @@ main .form-content .main-col .col1{
      align-items: center;
      border-bottom: 1px solid red;
      border-radius: 15px;
+
 }
+
 main .form-content .main-col .col1 .row1{
+
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
      align-items: flex-start;
      width: 100%;
      height: 20%;
+
 }
+
 main .form-content .main-col .col1 .row2{
+
      width: 100%;
      height: 80%;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
      align-items: center;
+
 }
+
 main .form-content .main-col .col1 .row2--1 .rowsss{
+
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
+
 }
+
 main .form-content .main-col .col1 .row2--1 .rowsss input{
+
      box-shadow: none;
+
 }
+
 main .form-content .main-col .col1 .row2--1 .rowsss .radio {
+
      width: 120px;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+
 }
+
 main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz{
+
      width: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
+
 }
+
 main .form-content .main-col .col1 .row2--1 .rowsss .radio label.gender , label.married{
+
      padding: 6px 10px;
      font-family: Iran-Sans-Regular1;
      background-color: #E2DFD2;
      border-radius: 7px;
      color: #717171;
+
 }
+
 main .form-content .main-col .col1 .row3{
+
      display: flex;
      justify-content: center;
      align-items: center;
      width: 100%;
      height: 15%;
+
 }
+
 main .form-content .main-col .col1 .row3 button{
+
      display: flex;
      align-items: center;
      justify-content: space-evenly;
@@ -155,31 +230,46 @@ main .form-content .main-col .col1 .row3 button{
      border: .8px solid #fff;
      border-radius: 6px;
      color: #fff;
+
 }
+
 main .form-content .main-col .col1 .row3 button a{
+
      width: 100%;
      height: 100%;
      display: flex;
      align-items: center;
      justify-content: space-evenly;
      font-family: Iran-Sans-Thin;
+
 }
+
 main .form-content .main-col .col1 .row1 h1{
-    font-family: Iran-Sans-Bold;
+
+     font-family: Iran-Sans-Bold;
      font-size: 30px;
+
 }
+
 main .form-content .main-col .col1 .row1 h1 span{
-    font-family: Iran-Sans-Black;
+
+     font-family: Iran-Sans-Black;
      padding: 1px 6px;
      background-color: var(--secondry-color);
      border-radius: 12px;
+
 }
+
 main .form-content .main-col .col1 .row1 small{
+
      margin-top: 3px;
      font-size: small;
      font-family: Iran-Sans-Medium;
+
 }
+
 main .form-content .col2{
+
      width: 30%;
      height: 100%;
      margin-right: 20px;
@@ -189,7 +279,11 @@ main .form-content .col2{
      justify-content: center;
      align-items: center;
      background-image: url(../images/recruitment/hannah-olinger-8eSrC43qdro-unsplash.jpg);
+
 }
+
 button:disabled{
+
      cursor: not-allowed;
+
 }

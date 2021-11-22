@@ -1,13 +1,13 @@
 main header {
 
-     width: 100%;
-     height: 100vh;
-     background-size: cover;
-     background-position: 0 -200px;
-     background-repeat: no-repeat;
-     background-image: url(../images/about-us-background.jpg) !important;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+    background-image: url(../images/about-us-background.jpg) !important;
 
- }
+}
 
 section.about-us{
 

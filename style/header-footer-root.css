@@ -14,6 +14,7 @@
     font-size: 100%;
 
 }
+
 body{
 
     direction: rtl;
@@ -61,23 +62,32 @@ ul{
 }
 
 .title{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 20%;
+    margin-bottom: 40px;
+
 }
+
 .title span{
+
     color: black;
     font-family: Iran-Sans-Bold;
-    font-size: larger;
+    font-size: x-large;
+
 }
+
 .title div.underline{
+
     width: 110px;
-    height: 5px;
+    height: 6px;
     border-radius: 10px;
     background-color: var(--secondry-color);
+
 }
 
 main header {
@@ -93,6 +103,7 @@ main header {
     border-radius: 0 0 10px 10px;
 
 }
+
 main nav .navbar-top-part{
 
     width: 100%;
@@ -102,6 +113,7 @@ main nav .navbar-top-part{
     align-items: center;
 
 }
+
 main nav .navbar-top-part .right-part{
 
     display: flex;
@@ -129,9 +141,12 @@ main nav .navbar-top-part .right-part li.search-box{
     margin-right: 50px;
 
 }
+
 main nav .navbar-top-part .right-part li.search-box .search-logo{
+
     width: 10%;
     height: 100%;
+
 }
 
 main nav .navbar-top-part .right-part li.search-box input{
@@ -148,8 +163,7 @@ main nav .navbar-top-part .right-part li.search-box input{
 
 }
 
-main nav .navbar-top-part .right-part li.search-box input::placeholder
-{
+main nav .navbar-top-part .right-part li.search-box input::placeholder{
 
     color: #fff;
 
@@ -164,14 +178,6 @@ main nav .navbar-bottom-part{
     font-size: medium;
     font-family: Iran-Sans-Light;
     align-items: center;
-
-}
-
-
-main nav .navbar-bottom-part li {
-
-    transition: all 0.2s;
-    padding: 5px 0;
 
 }
 
@@ -191,57 +197,67 @@ main nav .navbar-bottom-part li:hover{
 }
 
 .nav__listitem {
-  list-style: none;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-}
-.nav__listitem::after {
-  content: "";
-  width: 0;
-  height: 0.3rem;
-  border-radius: 0.2rem;
-  position: absolute;
-  left: 1rem;
-  bottom: 0.8rem;
-  transition: width 200ms ease-in;
-}
-.nav__listitem:hover::after, .nav__listitem:focus::after {
-  width: 80%;
-}
-.nav__listitem:hover ul, .nav__listitem:focus ul {
-  opacity: 1;
-  visibility: visible;
-}
-.nav__listitemdrop {
-  position: absolute;
-  top: 4rem;
-  left: -1rem;
-  background-color: white;
-  color: #111;
-  border-radius: 15px;
-  width: 220px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 200ms ease-in-out;
-}
-.nav__listitemdrop li {
-  list-style: none;
-  padding: 5px 1px;
-  border-radius: 0.2rem;
-  transition: background-color 200ms ease-in-out;
-}
-.nav__listitemdrop li:hover, .nav__listitemdrop li:focus {
-  background-color: #fce4ec;
+
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+
 }
 
+.nav__listitem::after {
+
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.8rem;
+    transition: width 200ms ease-in;
+
+}
+
+.nav__listitem:hover::after, .nav__listitem:focus::after {
+
+    width: 100%;
+
+}
+
+.nav__listitem:hover ul, .nav__listitem:focus ul {
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.nav__listitemdrop {
+
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+    background-color: #FFFCFC;
+    color: #111;
+    border-radius: 10px;
+    width: max-content;
+    padding: 1rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+
+}
+
+.nav__listitemdrop li {
+
+    font-family: Iran-Sans-Light;
+    list-style: none;
+    transition: background-color 200ms ease-in-out;
+
+}
 
 main header .hero{
 
@@ -302,6 +318,7 @@ main header .hero .about-cta{
 }
 
 main footer{
+
     padding: 25px 40px 0 40px;
     height: 70vh;
     margin: 0 40px;
@@ -312,45 +329,65 @@ main footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 200px;
+
 }
+
 main footer .content{
+
     width: 100%;
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
 }
+
 main footer .content .col1 , .col2 .col3{
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
     height: 100%;
+
 }
+
 main footer .content .col1{
+
     text-align: justify;
     font-size: smaller;
     font-family: Iran-Sans-Medium;
     line-height: 30px;
+
 }
+
 main footer .content .col1 img{
+
     width: 50%;
+
 }
+
 main footer .content .col2{
+
     font-family: Iran-Sans-Light;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: small;
+
 }
+
 main footer .content .col3{
+
     font-family: Iran-Sans-Light;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: small;
+
 }
+
 main footer .content .col2 div{
 
     font-family: Iran-Sans-Medium;
@@ -358,6 +395,7 @@ main footer .content .col2 div{
     margin: 10px 0;
 
 }
+
 main footer .content .col2 a{
 
     font-family: Iran-Sans-Regular1;
@@ -365,6 +403,7 @@ main footer .content .col2 a{
     margin: 3px 0;
 
 }
+
 main footer .content .col3 div{
 
     font-family: Iran-Sans-Medium;
@@ -372,6 +411,7 @@ main footer .content .col3 div{
     margin: 10px 0;
 
 }
+
 main footer .content .col3 p{
 
     font-family: Iran-Sans-Light;
@@ -379,6 +419,7 @@ main footer .content .col3 p{
     margin: 3px 0;
 
 }
+
 main footer .copyright{
     font-family: Iran-Sans-Medium;
     width: 60%;
