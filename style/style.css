@@ -200,3 +200,7 @@ main section.photo-gallery .content .swiper .swiper-button-prev::after , .swiper
     color: #810000;
 
 }
+.swiper-slide{
+    background-size: contain;
+    background-repeat: no-repeat;
+}

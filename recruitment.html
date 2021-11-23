@@ -23,12 +23,12 @@
                                    <small>اطلاعات شخصی</small>
                               </div>
                               <div id="pageone" class="row2 row2--1">
-          
-                                   <input type="text" class="w-100" name="fullname" id="fullname" placeholder="نام و نام خانوادگی">
+
+                                   <input type="text" class="w-50" name="fullname" id="fullname" placeholder="نام و نام خانوادگی">
                                    <input type="text" class="w-50" title="تاریخ تولد" name="date" id="date" placeholder="تاریخ تولد">
                                    <input type="number" class="w-50" name="phonenumber" id="phonenumber" placeholder="شماره تماس">
-                                   <div class="rowsss w-100">
-                                        <div class="radio gender-radio">
+                                   <div class="rowsss" style="width: 47%;">
+                                        <div class="radio gender-radio w-100">
                                              <label class="gender" for="gender">جنسیت</label>
           
                                              <div class="inputz">
@@ -83,7 +83,7 @@
           
           
                               <div id="pageThree" class="row2 row2--3">
-          
+
                                    <input type="text" class="w-50" name="" id="" placeholder="نام شرکت">
                                    <input type="number" class="w-50" name="" id="" placeholder="حقوق دریافتی">
                                    <input type="text" class="w-50" name="" id="" placeholder="زمینه فعالیت">
@@ -92,8 +92,9 @@
                                    <input type="text" class="w-25" name="" title="تاریخ شروع" id="" placeholder="تاریخ شروع">
                                    <input type="text" class="w-25" name="" title="تاریخ پایان" id="" placeholder="تاریخ پایان">
                                    <input type="text" class="w-75" name="" id="" placeholder="آدرس">
-                                   <input type="button" class="w-25" name="" id="" value="مورد جدید">
-                         </div>
+                                   <input type="button" class="w-25" name="" id="addNewPgThree" value="مورد جدید">
+
+                              </div>
                          <div class="row3">
                               <button id="previous3" type="button"><a href="#two">قبلی</a></button>
                               <button id="next3" type="submit"><a href="#four">بعدی</a></button>
@@ -108,22 +109,22 @@
           
                               <div id="pageFour" class="row2 row2--4">
           
-                                   <input type="text" class="w-100" placeholder="نام زبان">
-                                   <select name="reading" id="reading" class="reading w-50">
+                                   <input type="text" class="w-25" placeholder="نام زبان">
+                                   <select name="reading" id="reading" class="reading w-25">
                                         <option class="important" value="title">سطح خواندن</option>
                                         <option value="great">عالی</option>
                                         <option value="good">خوبی</option>
                                         <option value="middle">متوسط</option>
                                         <option value="weak">ضعیف</option>
                                    </select>
-                                   <select name="writing" id="writing" class="writing w-50">
+                                   <select name="writing" id="writing" class="writing w-25">
                                         <option class="important" value="title">سطح نوشتن</option>
                                         <option value="great">عالی</option>
                                         <option value="good">خوبی</option>
                                         <option value="middle">متوسط</option>
                                         <option value="weak">ضعیف</option>
                                    </select>
-                                   <select name="conversation" id="conversation" class="conversation w-50">
+                                   <select name="conversation" id="conversation" class="conversation w-25">
                                         <option class="important" value="title">سطح مکالمه</option>
                                         <option value="great">عالی</option>
                                         <option value="good">خوبی</option>
@@ -145,7 +146,7 @@
           
                               <div id="pageFive" class="row2 row2--5">
           
-                                   <input type="text" class="w-100" name="" id="" placeholder="نام نرم افزار">
+                                   <input type="text" class="w-50" name="" id="" placeholder="نام نرم افزار">
                                    <select name="familiarity" id="familiarity" class="familiarity w-50">
                                         <option class="important" value="title">میزان آشنایی</option>
                                         <option value="great">عالی</option>
@@ -172,10 +173,10 @@
                                    <input type="text" name="" id="" placeholder="مقطع تحصیلی" class="w-50">
                                    <input type="text" name="" id="" placeholder="معدل" class="w-25">
                                    <input type="text" name="" id="" placeholder="گرایش" class="w-25">
-                                   <input type="text" name="" id="" placeholder="نام دانشگاه" class="w-50">
-                                   <input type="date" name="" id="" title="تاریخ شروع" placeholder="شروع" class="w-25">
-                                   <input type="text" name="" id="" title="تاریخ پایان" placeholder="پایان" class="w-25">
-                                   <input type="text" name="" id="" placeholder="رشته تحصیلی" class="w-50">
+                                   <input type="text" name="" id="" placeholder="نام دانشگاه" class="w-25">
+                                   <input type="text" name="" id="" title="تاریخ شروع" placeholder="تاریخ شروع" class="w-25">
+                                   <input type="text" name="" id="" title="تاریخ پایان" placeholder="تاریخ پایان" class="w-25">
+                                   <input type="text" name="" id="" placeholder="رشته تحصیلی" class="w-25">
                                    <input type="button" name="" id="" value="افزودن مورد جدید" class="w-50">
                          </div>
                          <div class="row3">
@@ -200,16 +201,18 @@
                          </div>
                          <div class="row3">
                               <button id="previous7" type="button"><a href="#six">قبلی</a></button>
+
                               <input id="formRecord" type="submit" value="ثبت" class="submit-btn"></button>
+
+                              <button id="formRecord" type="submit">ثبت</button>
                          </div>
                          </div>
                     </form>
                </div>
-               <div class="col2"><img src="images/Mask Group.png" alt=""></div>
+               <div class="col2"></div>
           </div>
 
      </main>
      <script src="js/recruitment.js"></script>
-     
 </body>
 </html>
