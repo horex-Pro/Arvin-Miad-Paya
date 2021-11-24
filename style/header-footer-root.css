@@ -14,6 +14,7 @@
     font-size: 100%;
 
 }
+
 body{
 
     direction: rtl;
@@ -61,23 +62,32 @@ ul{
 }
 
 .title{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 20%;
+    margin-bottom: 40px;
+
 }
+
 .title span{
+
     color: black;
     font-family: Iran-Sans-Bold;
-    font-size: larger;
+    font-size: x-large;
+
 }
+
 .title div.underline{
+
     width: 110px;
-    height: 5px;
+    height: 6px;
     border-radius: 10px;
     background-color: var(--secondry-color);
+
 }
 
 main header {
@@ -93,6 +103,7 @@ main header {
     border-radius: 0 0 10px 10px;
 
 }
+
 main nav .navbar-top-part{
 
     width: 100%;
@@ -102,6 +113,7 @@ main nav .navbar-top-part{
     align-items: center;
 
 }
+
 main nav .navbar-top-part .right-part{
 
     display: flex;
@@ -119,7 +131,6 @@ main nav .navbar-top-part .right-part li img.logo{
 
 main nav .navbar-top-part .right-part li.search-box{
 
-    width: 220px;
     height: 60px;
     padding: 0 10px;
     display: flex;
@@ -127,15 +138,20 @@ main nav .navbar-top-part .right-part li.search-box{
     border: 1px solid #fff;
     border-radius: 10px;
     transition: all 0.3s;
+    margin-right: 50px;
 
 }
+
 main nav .navbar-top-part .right-part li.search-box .search-logo{
-    width: 20px;
+
+    width: 10%;
+    height: 100%;
+
 }
 
 main nav .navbar-top-part .right-part li.search-box input{
 
-    width: 100%;
+    width: 200px;
     height: 100%;
     background-color: transparent;
     color: #fff;
@@ -147,8 +163,7 @@ main nav .navbar-top-part .right-part li.search-box input{
 
 }
 
-main nav .navbar-top-part .right-part li.search-box input::placeholder
-{
+main nav .navbar-top-part .right-part li.search-box input::placeholder{
 
     color: #fff;
 
@@ -166,37 +181,83 @@ main nav .navbar-bottom-part{
 
 }
 
-
-main nav .navbar-bottom-part li {
-
-    transition: all 0.2s;
-
-}
-
 main nav .navbar-bottom-part li.active{
 
     font-weight: bold;
-    position: relative;
-
-}
-
-main nav .navbar-bottom-part li.active::after{
-
-    content: '';
-    position: absolute;
-    top: 30px;
-    right: 50%;
-    transform: translateX(50%);
-    width: 40px;
-    height: 5px;
-    border-radius: 15px;
-    background-color: var(--secondry-color);
+    border-bottom: 5px solid #810000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 }
 
 main nav .navbar-bottom-part li:hover{
 
     font-weight: bold;
+
+}
+
+.nav__listitem {
+
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.nav__listitem::after {
+
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.8rem;
+    transition: width 200ms ease-in;
+
+}
+
+.nav__listitem:hover::after, .nav__listitem:focus::after {
+
+    width: 100%;
+
+}
+
+.nav__listitem:hover ul, .nav__listitem:focus ul {
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.nav__listitemdrop {
+
+    position: absolute;
+    top: 1.65rem;
+    left: 50%;
+    background-color: #FFFCFC;
+    color: #111;
+    border-radius: 10px;
+    width: max-content;
+    padding: 1rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    transform: translateX(-50%);
+    gap: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+
+}
+
+.nav__listitemdrop li {
+
+    font-family: Iran-Sans-Light;
+    font-size: 12px;
+    list-style: none;
+    transition: background-color 200ms ease-in-out;
 
 }
 
@@ -259,6 +320,7 @@ main header .hero .about-cta{
 }
 
 main footer{
+
     padding: 25px 40px 0 40px;
     height: 70vh;
     margin: 0 40px;
@@ -269,45 +331,65 @@ main footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 200px;
+
 }
+
 main footer .content{
+
     width: 100%;
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
 }
+
 main footer .content .col1 , .col2 .col3{
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
     height: 100%;
+
 }
+
 main footer .content .col1{
+
     text-align: justify;
     font-size: smaller;
     font-family: Iran-Sans-Medium;
     line-height: 30px;
+
 }
+
 main footer .content .col1 img{
+
     width: 50%;
+
 }
+
 main footer .content .col2{
+
     font-family: Iran-Sans-Light;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: small;
+
 }
+
 main footer .content .col3{
+
     font-family: Iran-Sans-Light;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: small;
+
 }
+
 main footer .content .col2 div{
 
     font-family: Iran-Sans-Medium;
@@ -315,6 +397,7 @@ main footer .content .col2 div{
     margin: 10px 0;
 
 }
+
 main footer .content .col2 a{
 
     font-family: Iran-Sans-Regular1;
@@ -322,6 +405,7 @@ main footer .content .col2 a{
     margin: 3px 0;
 
 }
+
 main footer .content .col3 div{
 
     font-family: Iran-Sans-Medium;
@@ -329,6 +413,7 @@ main footer .content .col3 div{
     margin: 10px 0;
 
 }
+
 main footer .content .col3 p{
 
     font-family: Iran-Sans-Light;
@@ -336,6 +421,7 @@ main footer .content .col3 p{
     margin: 3px 0;
 
 }
+
 main footer .copyright{
     font-family: Iran-Sans-Medium;
     width: 60%;
