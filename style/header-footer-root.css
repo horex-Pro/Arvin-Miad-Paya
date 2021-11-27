@@ -184,7 +184,8 @@ main nav .navbar-bottom-part{
 main nav .navbar-bottom-part li.active{
 
     font-weight: bold;
-    border-bottom: 5px solid #810000;
+    padding: 10px;
+    border-bottom: 3px solid #810000;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
@@ -202,6 +203,11 @@ main nav .navbar-bottom-part li:hover{
     position: relative;
     cursor: pointer;
     transition: all 0.2s;
+
+}
+.nav__listitem.active ul{
+
+    top: 3rem;
 
 }
 
@@ -232,7 +238,7 @@ main nav .navbar-bottom-part li:hover{
 .nav__listitemdrop {
 
     position: absolute;
-    top: 1.65rem;
+    top: 1.7rem;
     left: 50%;
     background-color: #FFFCFC;
     color: #111;

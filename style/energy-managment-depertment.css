@@ -1,0 +1,9 @@
+main header {
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/energy-managment.jpg);
+    background-position: 0 -150px;
+}
