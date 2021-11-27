@@ -1,4 +1,4 @@
-/* main.spaces{
+main.spaces{
 
      width: 100%;
      padding: 30px 40px;
@@ -104,14 +104,9 @@ main .form-content{
 }
 
 main .form-content .main-col{
-     width: 50%;
-     height: 550px;
-     width: 70%;
-     height: 100%;
      overflow: hidden;
-
-     width: 70%;
-     height: 100%;
+     width: 50%;
+     height: 465px;
      overflow-y: scroll;
 
 }
@@ -136,11 +131,35 @@ main .form-content .main-col .col1{
      height: 77vh;
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
+     justify-content: start;
      align-items: center;
      border-bottom: 1px solid red;
      border-radius: 15px;
 
+}
+#one{
+     height: 500px;
+     margin-bottom: 10px;
+}
+#two{
+     height: 500px;
+     margin-bottom: 10px;
+}
+#three{
+     height: 500px;
+     margin-bottom: 10px;
+}
+#four{
+     height: 500px;
+     margin-bottom: 10px;
+}
+#five{
+     height: 500px;
+     margin-bottom: 10px;
+}
+#six{
+     height: 500px;
+     margin-bottom: 10px;
 }
 
 main .form-content .main-col .col1 .row1{
@@ -164,6 +183,12 @@ main .form-content .main-col .col1 .row2{
      align-items: center;
 
 }
+
+.row2--1{
+     height: 50% !important;
+}
+
+
 
 main .form-content .main-col .col1 .row2--1 .rowsss{
 
@@ -198,6 +223,13 @@ main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz{
      align-items: center;
 
 }
+main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz div{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
 
 main .form-content .main-col .col1 .row2--1 .rowsss .radio label.gender , label.married{
 
@@ -309,4 +341,4 @@ button:disabled{
      color: #fff;
      cursor: pointer;
 
-} */
+}

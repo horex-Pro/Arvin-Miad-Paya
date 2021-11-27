@@ -40,6 +40,12 @@ ul{
     list-style-type: none;
 }
 
+.container {
+
+    padding: 40px 80px;
+
+}
+
 .cta-button{
 
     width: 130px;
@@ -52,12 +58,6 @@ ul{
     padding: 10px 20px;
     border: 1px solid #fff;
     border-radius: 10px;
-
-}
-
-.container {
-
-    padding: 40px 80px;
 
 }
 
