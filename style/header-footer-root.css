@@ -238,20 +238,20 @@ main nav .navbar-bottom-part li:hover{
 .nav__listitemdrop {
 
     position: absolute;
-    top: 1.7rem;
+    top: 1.5rem;
     left: 50%;
     background-color: #FFFCFC;
     color: #111;
     border-radius: 10px;
     width: max-content;
-    padding: 1rem 1.4rem;
+    padding: 1rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     align-items: center;
     transform: translateX(-50%);
-    gap: 2rem;
+    /* gap: 2rem; */
     opacity: 0;
     visibility: hidden;
     transition: opacity 200ms ease-in-out;
@@ -262,8 +262,20 @@ main nav .navbar-bottom-part li:hover{
 
     font-family: Iran-Sans-Light;
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
     list-style: none;
     transition: background-color 200ms ease-in-out;
+    margin: 0 40px;
+
+}
+
+.nav__listitemdrop li:hover{
+
+    background-color:#8100003d;
 
 }
 

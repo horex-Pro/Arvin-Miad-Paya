@@ -4,14 +4,22 @@ main header {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/energy-managment.jpg);
-    background-position: 0 -150px;
-
+    background-image: url(../images/research.jpg);
 }
 
 main section.activity-domain{
 
     display: flex;
+    align-items: center;
+
+}
+
+main section.activity-domain .cards{
+
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 
 }
