@@ -28,6 +28,9 @@ main {
 
     max-width: 1500px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -309,10 +312,8 @@ main header .hero h1.hero-title span{
     border-radius: 5px;
     background-color: var(--secondry-color);
     font-family: Iran-Sans-Black;
-    --smooth-corners: 15;
     width: 30px;
     height: 40px;
-    mask-image: paint(smooth-corners);
     padding: 3px 6px;
 
 }
@@ -345,6 +346,7 @@ main header .hero .about-cta{
 
 main footer{
 
+    width: 100%;
     padding: 25px 40px 0 40px;
     height: 70vh;
     margin: 0 40px;
@@ -355,7 +357,7 @@ main footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 200px;
-
+    
 }
 
 main footer .content{
@@ -365,6 +367,7 @@ main footer .content{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 50px;
 
 }
 
@@ -447,6 +450,7 @@ main footer .content .col3 p{
 }
 
 main footer .copyright{
+
     font-family: Iran-Sans-Medium;
     width: 60%;
     height: 15%;
@@ -455,4 +459,5 @@ main footer .copyright{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }

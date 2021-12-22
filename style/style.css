@@ -162,6 +162,7 @@ main section.recruitment .content img{
     border-radius: 15px;
 
 }
+
 main section.recruitment .content .description{
 
     width: 50%;
@@ -172,6 +173,7 @@ main section.recruitment .content .description{
     align-items: flex-start;
 
 }
+
 main section.recruitment .content .description h1{
 
     font-family: Iran-Sans-DemiBold;
@@ -181,7 +183,7 @@ main section.recruitment .content .description h1{
 
 main section.recruitment .content .description p{
 
-    font-family: Iran-Sans-Thin;
+    font-family: Iran-Sans-Medium;
     text-align: justify;
     font-size: medium;
     width: 50%;
