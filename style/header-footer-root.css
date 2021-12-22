@@ -76,7 +76,7 @@ ul{
 .title span{
 
     color: black;
-    font-family: Iran-Sans-Bold;
+    font-family: Iran-Sans-Black;
     font-size: x-large;
 
 }
@@ -279,6 +279,12 @@ main nav .navbar-bottom-part li:hover{
 
 }
 
+.nav__listitemdrop li a {
+
+    color: rgb(0, 0, 0);
+
+}
+
 main header .hero{
 
     display: flex;
@@ -293,7 +299,7 @@ main header .hero{
 main header .hero h1.hero-title{
 
     font-size: 33px;
-    font-family: Iran-Sans-Black;
+    font-family: Iran-Sans-Bold;
 
 }
 
@@ -302,7 +308,7 @@ main header .hero h1.hero-title span{
     padding: 1px 6px;
     border-radius: 5px;
     background-color: var(--secondry-color);
-    font-family: Iran-Sans-Bold;
+    font-family: Iran-Sans-Black;
     --smooth-corners: 15;
     width: 30px;
     height: 40px;
