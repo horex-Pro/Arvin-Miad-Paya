@@ -31,7 +31,7 @@
         flex-direction: column;
         align-items: center;
         justify-content:space-between;
-        height: 80vh;
+        height: 100vh;
         background-position: -100px 0;
         text-align: center;
     
@@ -39,6 +39,7 @@
 
     main header .hero h1.hero-title{
 
+        font-size: 20px;
         line-height: 60px;
     
     }
@@ -46,6 +47,7 @@
     main header .hero .description{
 
         width: 100%;
+        font-size: 15px;
     
     }
 
@@ -82,14 +84,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        transform:scale(2);
-        margin-top: 400px;
-
-    }
-
-    main section.activity-domain .cards .card:nth-child(1){
-
-        margin-top: 200px;
+        margin-top: 100px;
 
     }
 
@@ -110,6 +105,13 @@
         width: 80px;
         margin-top: 20px;
     
+    }
+
+    main section.recruitment {
+
+        width: 100%;
+        height: auto;
+
     }
 
     main section.recruitment .content{
@@ -221,7 +223,7 @@
 
         width: 100%;
         text-align: justify;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 40px;
 
     }
@@ -244,6 +246,7 @@
         justify-content: center;
         align-items: center;
         padding: 10px;
+        
     } 
 
     
