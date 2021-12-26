@@ -1,463 +1,374 @@
-:root{
-
-    --background-color:#EEEBDD;
-    --primary-color:hsl(0, 8%, 10%);
-    --secondry-color:#810000;
-
+:root {
+  --background-color: #eeebdd;
+  --primary-color: hsl(0, 8%, 10%);
+  --secondry-color: #810000;
 }
 
-*{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
 }
 
-body{
-
-    direction: rtl;
-    color: #fff;
-    overflow-x: hidden;
-    background-color: var(--background-color);
-
+body {
+  direction: rtl;
+  color: #fff;
+  overflow-x: hidden;
+  background-color: var(--background-color);
 }
 
 main {
-
-    max-width: 1500px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 .container {
-
-    padding: 40px 80px;
-
+  padding: 40px 80px;
 }
 
-.cta-button{
-
-    width: 130px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Iran-Sans-Medium;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    border-radius: 10px;
-
+.cta-button {
+  width: 130px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Iran-Sans-Medium;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
 
-.title{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20%;
-    margin-bottom: 40px;
-
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 40px;
 }
 
-.title span{
-
-    color: black;
-    font-family: Iran-Sans-Black;
-    font-size: x-large;
-
+.title span {
+  color: black;
+  font-family: Iran-Sans-Black;
+  font-size: x-large;
 }
 
-.title div.underline{
-
-    width: 110px;
-    height: 6px;
-    border-radius: 10px;
-    background-color: var(--secondry-color);
-
+.title div.underline {
+  width: 110px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: var(--secondry-color);
 }
 
 main header {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/home/hero-background.jpg);
-    border-radius: 0 0 10px 10px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/home/hero-background.jpg);
+  border-radius: 0 0 10px 10px;
 }
 
-main nav .navbar-top-part{
-
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+main nav .navbar-top-part {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main nav .navbar-top-part .right-part{
-
-    display: flex;
-    width: 32%;
-    align-items: center;
-    justify-content: space-between;
-
+main nav .navbar-top-part .right-part {
+  display: flex;
+  width: 32%;
+  align-items: center;
+  justify-content: space-between;
 }
 
-main nav .navbar-top-part .right-part li img.logo{
-
-    width: 150px;
-
+main nav .navbar-top-part .right-part li img.logo {
+  width: 150px;
 }
 
-main nav .navbar-top-part .right-part li.search-box{
-
-    height: 60px;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    transition: all 0.3s;
-    margin-right: 50px;
-
+main nav .navbar-top-part .right-part li.search-box {
+  height: 60px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+  margin-right: 50px;
 }
 
-main nav .navbar-top-part .right-part li.search-box .search-logo{
-
-    width: 10%;
-    height: 100%;
-
+main nav .navbar-top-part .right-part li.search-box .search-logo {
+  width: 10%;
+  height: 100%;
 }
 
-main nav .navbar-top-part .right-part li.search-box input{
-
-    width: 200px;
-    height: 100%;
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    padding: 10px;
-    font-family: Iran-Sans-Light;
-
+main nav .navbar-top-part .right-part li.search-box input {
+  width: 200px;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 10px;
+  font-family: Iran-Sans-Light;
 }
 
-main nav .navbar-top-part .right-part li.search-box input::placeholder{
-
-    color: #fff;
-
+main nav .navbar-top-part .right-part li.search-box input::placeholder {
+  color: #fff;
 }
 
-main nav .navbar-bottom-part{
-
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    font-size: medium;
-    font-family: Iran-Sans-Light;
-    align-items: center;
-
+main nav .navbar-bottom-part {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  font-family: Iran-Sans-Light;
+  align-items: center;
 }
 
-main nav .navbar-bottom-part li.active{
-
-    font-weight: bold;
-    padding: 10px;
-    border-bottom: 3px solid #810000;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-
+main nav .navbar-bottom-part li.active {
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 3px solid #810000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-main nav .navbar-bottom-part li:hover{
-
-    font-weight: bold;
-
+main nav .navbar-bottom-part li:hover {
+  font-weight: bold;
 }
 
 .nav__listitem {
-
-    list-style: none;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.2s;
-
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
 }
-.nav__listitem.active ul{
-
-    top: 3rem;
-
+.nav__listitem.active ul {
+  top: 3rem;
 }
 
 .nav__listitem::after {
-
-    content: "";
-    border-radius: 10px;
-    position: absolute;
-    left: 1rem;
-    bottom: 0.8rem;
-    transition: width 200ms ease-in;
-
+  content: "";
+  border-radius: 10px;
+  position: absolute;
+  left: 1rem;
+  bottom: 0.8rem;
+  transition: width 200ms ease-in;
 }
 
-.nav__listitem:hover::after, .nav__listitem:focus::after {
-
-    width: 100%;
-
+.nav__listitem:hover::after,
+.nav__listitem:focus::after {
+  width: 100%;
 }
 
-.nav__listitem:hover ul, .nav__listitem:focus ul {
-
-    opacity: 1;
-    visibility: visible;
-
+.nav__listitem:hover ul,
+.nav__listitem:focus ul {
+  opacity: 1;
+  visibility: visible;
 }
 
 .nav__listitemdrop {
-
-    position: absolute;
-    top: 1.5rem;
-    left: 50%;
-    background-color: #FFFCFC;
-    color: #111;
-    border-radius: 10px;
-    width: max-content;
-    padding: 1rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    transform: translateX(-50%);
-    /* gap: 2rem; */
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 200ms ease-in-out;
-
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  background-color: #fffcfc;
+  color: #111;
+  border-radius: 10px;
+  width: max-content;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  transform: translateX(-50%);
+  /* gap: 2rem; */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out;
 }
 
 .nav__listitemdrop li {
-
-    font-family: Iran-Sans-Light;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    list-style: none;
-    transition: background-color 200ms ease-in-out;
-    margin: 0 40px;
-
+  font-family: Iran-Sans-Light;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  transition: background-color 200ms ease-in-out;
+  margin: 0 40px;
 }
 
-.nav__listitemdrop li:hover{
-
-    background-color:#8100003d;
-
+.nav__listitemdrop li:hover {
+  background-color: #8100003d;
 }
 
 .nav__listitemdrop li a {
-
-    color: rgb(0, 0, 0);
-
+  color: rgb(0, 0, 0);
 }
 
-main header .hero{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 100%;
-    height: 70%;
-
+main header .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  height: 70%;
 }
 
-main header .hero h1.hero-title{
-
-    font-size: 33px;
-    font-family: Iran-Sans-Bold;
-
+main header .hero h1.hero-title {
+  font-size: 33px;
+  font-family: Iran-Sans-Bold;
 }
 
-main header .hero h1.hero-title span{
-
-    padding: 1px 6px;
-    border-radius: 5px;
-    background-color: var(--secondry-color);
-    font-family: Iran-Sans-Black;
-    width: 30px;
-    height: 40px;
-    padding: 3px 6px;
-
+main header .hero h1.hero-title span {
+  padding: 1px 6px;
+  border-radius: 5px;
+  background-color: var(--secondry-color);
+  font-family: Iran-Sans-Black;
+  width: 30px;
+  height: 40px;
+  padding: 3px 6px;
 }
 
-main header .hero .description{
-
-    font-family: Iran-Sans-Medium;
-    font-weight: 400;
-    text-align: justify;
-    width: 46%;
-    font-size: 16px;
-    line-height: 40px;
-
+main header .hero .description {
+  font-family: Iran-Sans-Medium;
+  font-weight: 400;
+  text-align: justify;
+  width: 46%;
+  font-size: 16px;
+  line-height: 40px;
 }
 
-main header .hero .about-cta{
-
-    font-family: Iran-Sans-Medium;
-    width: 130px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 15px;
-
+main header .hero .about-cta {
+  font-family: Iran-Sans-Medium;
+  width: 130px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
 }
 
-main footer{
-
-    width: 100%;
-    padding: 25px 40px 0 40px;
-    height: 70vh;
-    margin: 0 40px;
-    background-color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px 50px 0 0;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 200px;
-    
+main footer {
+  width: 100%;
+  padding: 25px 40px 0 40px;
+  height: 70vh;
+  margin: 0 40px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px 50px 0 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
 }
 
-main footer .content{
-
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px;
-
+main footer .content {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
 }
 
-main footer .content .col1 , .col2 .col3{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 30%;
-    height: 100%;
-
+main footer .content .col1,
+.col2 .col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  height: 100%;
 }
 
-main footer .content .col1{
-
-    text-align: justify;
-    font-size: smaller;
-    font-family: Iran-Sans-Medium;
-    line-height: 30px;
-
+main footer .content .col1 {
+  text-align: justify;
+  font-size: smaller;
+  font-family: Iran-Sans-Medium;
+  line-height: 30px;
 }
 
-main footer .content .col1 img{
-
-    width: 50%;
-
+main footer .content .col1 img {
+  width: 50%;
 }
 
-main footer .content .col2{
-
-    font-family: Iran-Sans-Light;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: small;
-
+main footer .content .col2 {
+  font-family: Iran-Sans-Light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
 }
 
-main footer .content .col3{
-
-    font-family: Iran-Sans-Light;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: small;
-
+main footer .content .col3 {
+  font-family: Iran-Sans-Light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
 }
 
-main footer .content .col2 div{
-
-    font-family: Iran-Sans-Medium;
-    font-size: x-large;
-    margin: 10px 0;
-
+main footer .content .col2 div {
+  font-family: Iran-Sans-Medium;
+  font-size: x-large;
+  margin: 10px 0;
 }
 
-main footer .content .col2 a{
-
-    font-family: Iran-Sans-Regular1;
-    font-size: medium;
-    margin: 3px 0;
-
+main footer .content .col2 a {
+  font-family: Iran-Sans-Regular1;
+  font-size: medium;
+  margin: 3px 0;
 }
 
-main footer .content .col3 div{
-
-    font-family: Iran-Sans-Medium;
-    font-size: x-large;
-    margin: 10px 0;
-
+main footer .content .col3 div {
+  font-family: Iran-Sans-Medium;
+  font-size: x-large;
+  margin: 10px 0;
 }
 
-main footer .content .col3 p{
-
-    font-family: Iran-Sans-Light;
-    font-size: medium;
-    margin: 3px 0;
-
+main footer .content .col3 p {
+  font-family: Iran-Sans-Light;
+  font-size: medium;
+  margin: 3px 0;
 }
 
-main footer .copyright{
-
-    font-family: Iran-Sans-Medium;
-    width: 60%;
-    height: 15%;
-    border-radius: 20px 20px 0 0;
-    background-color: var(--secondry-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+main footer .copyright {
+  font-family: Iran-Sans-Medium;
+  width: 60%;
+  height: 15%;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--secondry-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

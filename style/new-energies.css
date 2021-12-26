@@ -1,53 +1,43 @@
-
 main header {
-
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/new-energyes-hero.jpg) !important;
-    background-position: 0 -200px;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/new-energyes-hero.jpg) !important;
+  background-position: 0 -200px;
 }
 
-section{
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/new-energyes-section.jpg);
-    background-position: 0 -150px;
-    background-size: cover;
-    margin-top: 100px;
-    border-radius: 20px;
-    font-family: Iran-Sans-Medium;
-
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/new-energyes-section.jpg);
+  background-position: 0 -150px;
+  background-size: cover;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: Iran-Sans-Medium;
 }
 
 section ul {
-
-    width: 100%;
-    height: 100%;
-    background-color: #1b1717a1;
-    border-radius: 15px;
-    padding: 40px;
-    text-align: justify;
-    line-height: 50px;
-    font-size: 16px;
-    box-shadow: 0 0 15px #1b1717a1;
-
+  width: 100%;
+  height: 100%;
+  background-color: #1b1717a1;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: justify;
+  line-height: 50px;
+  font-size: 16px;
+  box-shadow: 0 0 15px #1b1717a1;
 }
 
-section ul li{
-
-    list-style-position: inside;
-    list-style-type: square;
-
+section ul li {
+  list-style-position: inside;
+  list-style-type: square;
 }
 
 section ul li:nth-child(1) {
-
-    list-style-type: none;
-
+  list-style-type: none;
 }

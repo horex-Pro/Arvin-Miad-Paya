@@ -1,31 +1,24 @@
 main header {
-
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/research.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/research.jpg);
 }
 
-main section.activity-domain{
-
-    display: flex;
-    align-items: center;
-
+main section.activity-domain {
+  display: flex;
+  align-items: center;
 }
 
-main section.activity-domain .cards{
-
-    width: 50%;
-    height: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+main section.activity-domain .cards {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-main section.activity-domain .cards .card{
-
-    align-self: flex-start !important;
-
+main section.activity-domain .cards .card {
+  align-self: flex-start !important;
 }

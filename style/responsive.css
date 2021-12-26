@@ -1,254 +1,192 @@
-
-
-@media only screen and (max-width:600px){
-
-    main{
-
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        overflow-x: hidden;
-
-    }
-
-    .container {
-
-        padding: 0px 10px;
-    
-    }
-
-    .desktop-navbar{
-
-        display: none;
-
-    }
-
-    main header {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:space-between;
-        height: 100vh;
-        background-position: -100px 0;
-        text-align: center;
-    
-    }
-
-    main header .hero h1.hero-title{
-
-        font-size: 20px;
-        line-height: 60px;
-    
-    }
-
-    main header .hero .description{
-
-        width: 100%;
-        font-size: 15px;
-    
-    }
-
-    main header .hero .about-cta{
-
-        width: 100%;
-    
-    }
-
-    main section.activity-domain{
-
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        margin-top: 100px;
-        background-image: url(../images/home/bacground-image.png);
-        background-size: contain;
-        background-position: 0 200px;
-    
-    }
-
-    main section.activity-domain .cards{
-
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-
-    main section.activity-domain .cards .card{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 100px;
-
-    }
-
-    main section.activity-domain .cards .card:nth-child(odd){
-
-        align-self: center;
-    
-    }
-    
-    main section.activity-domain .cards .card:nth-child(even){
-    
-        align-self: center;
-    
-    }
-
-    main section.recruitment .title .underline{
-
-        width: 80px;
-        margin-top: 20px;
-    
-    }
-
-    main section.recruitment {
-
-        width: 100%;
-        height: auto;
-
-    }
-
-    main section.recruitment .content{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 600px;
-        padding: 10px;
-        border-radius: 15px;
-        background-color: var(--primary-color);
-    
-    }
-
-    main section.recruitment .content img{
-
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        order: -1;
-    
-    }
-
-    main section.recruitment .content .description{
-
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    
-    }
-
-    main section.recruitment .content .description h1{
-
-        margin-top: 20px;
-        font-size: 34px;
-    
-    }
-
-    main section.recruitment .content .description p{
-
-        line-height: 40px;
-        width: 100%;
-    
-    }
-
-    main section.recruitment .content .description a{
-
-        width: 100%;
-
-    }
-
-    main section.photo-gallery{
-
-        height: auto;
-        display: flex;
-        margin-top: 100px;
-        background-image: url(../images/home/bacground-image.png);
-    
-    }
-
-    main section.photo-gallery .title .underline{
-
-        width: 80px;
-    
-    }
-
-    main footer{
-
-        width: 100%;
-        height: 800px;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 100px;
-    
-    }
-
-    main footer .content{
-
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-        padding: 0;
-    
-    }
-
-    main footer .content .col1 , .col3{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-    
-    }
-
-    main footer .content .col1 p{
-
-        width: 100%;
-        text-align: justify;
-        font-size: 15px;
-        line-height: 40px;
-
-    }
-
-    main footer .content .col2 {
-
-        display: none;
-
-    }
-
-
-    main footer .copyright{
-        
-        width: 100%;
-        height: auto;
-        text-align: center;
-        font-size: 10px;
-        background-color: var(--secondry-color);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        
-    } 
-
-    
-
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0px 10px;
+  }
+
+  .desktop-navbar {
+    display: none;
+  }
+
+  main header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-position: -100px 0;
+    text-align: center;
+  }
+
+  main header .hero h1.hero-title {
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  main header .hero .description {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  main header .hero .about-cta {
+    width: 100%;
+  }
+
+  main section.activity-domain {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 100px;
+    background-image: url(../images/home/bacground-image.png);
+    background-size: contain;
+    background-position: 0 200px;
+  }
+
+  main section.activity-domain .cards {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main section.activity-domain .cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  main section.activity-domain .cards .card:nth-child(odd) {
+    align-self: center;
+  }
+
+  main section.activity-domain .cards .card:nth-child(even) {
+    align-self: center;
+  }
+
+  main section.recruitment .title .underline {
+    width: 80px;
+    margin-top: 20px;
+  }
+
+  main section.recruitment {
+    width: 100%;
+    height: auto;
+  }
+
+  main section.recruitment .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+  }
+
+  main section.recruitment .content img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    order: -1;
+  }
+
+  main section.recruitment .content .description {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main section.recruitment .content .description h1 {
+    margin-top: 20px;
+    font-size: 34px;
+  }
+
+  main section.recruitment .content .description p {
+    line-height: 40px;
+    width: 100%;
+  }
+
+  main section.recruitment .content .description a {
+    width: 100%;
+  }
+
+  main section.photo-gallery {
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    background-image: url(../images/home/bacground-image.png);
+  }
+
+  main section.photo-gallery .title .underline {
+    width: 80px;
+  }
+
+  main footer {
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  main footer .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  main footer .content .col1,
+  .col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  main footer .content .col1 p {
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  main footer .content .col2 {
+    display: none;
+  }
+
+  main footer .copyright {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 10px;
+    background-color: var(--secondry-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
 }

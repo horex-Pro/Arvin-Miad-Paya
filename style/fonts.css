@@ -1,62 +1,44 @@
-@font-face{
-
-    src: url(../fonts/IRANSansX-Black.woff2);
-    font-family: Iran-Sans-Black;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Black.woff2);
+  font-family: Iran-Sans-Black;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-Bold.woff2);
-    font-family: Iran-Sans-Bold;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Bold.woff2);
+  font-family: Iran-Sans-Bold;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-DemiBold.woff2);
-    font-family: Iran-Sans-DemiBold;
-
+@font-face {
+  src: url(../fonts/IRANSansX-DemiBold.woff2);
+  font-family: Iran-Sans-DemiBold;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-ExtraBold.woff2);
-    font-family: Iran-Sans-ExtraBold;
-
+@font-face {
+  src: url(../fonts/IRANSansX-ExtraBold.woff2);
+  font-family: Iran-Sans-ExtraBold;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-Light.woff2);
-    font-family: Iran-Sans-Light;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Light.woff2);
+  font-family: Iran-Sans-Light;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-Medium.woff2);
-    font-family: Iran-Sans-Medium;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Medium.woff2);
+  font-family: Iran-Sans-Medium;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-Regular.woff2);
-    font-family: Iran-Sans-Regular1;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Regular.woff2);
+  font-family: Iran-Sans-Regular1;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-Thin.woff2);
-    font-family: Iran-Sans-Thin;
-
+@font-face {
+  src: url(../fonts/IRANSansX-Thin.woff2);
+  font-family: Iran-Sans-Thin;
 }
 
-@font-face{
-
-    src: url(../fonts/IRANSansX-UltraLight.woff2);
-    font-family: Iran-Sans-UltraLight;
-
+@font-face {
+  src: url(../fonts/IRANSansX-UltraLight.woff2);
+  font-family: Iran-Sans-UltraLight;
 }

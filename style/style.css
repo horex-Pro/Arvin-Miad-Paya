@@ -1,246 +1,212 @@
-main section.activity-domain{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-    margin-top: 100px;
-    background-image: url(../images/home/bacground-image.png);
-    background-size: contain;
-    background-position: 0 200px;
-    background-repeat: no-repeat;
-
+main section.activity-domain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  background-image: url(../images/home/bacground-image.png);
+  background-size: contain;
+  background-position: 0 200px;
+  background-repeat: no-repeat;
 }
 
-main section.activity-domain .cards{
-
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+main section.activity-domain .cards {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main section.activity-domain .cards .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #1b1717;
-    border-radius: 10px;
-    width: 200px;
-    height: 320px;
-    transition: all 0.2s;
+main section.activity-domain .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1b1717;
+  border-radius: 10px;
+  width: 200px;
+  height: 320px;
+  transition: all 0.2s;
 }
 
-.card:hover{
-
-    transform: scale(1.1) !important;
-    border: 5px solid #810000 !important;
-    background-color: #0c0c0c !important;
-    box-shadow: 0 0 15px rgb(126, 126, 126);
-
+.card:hover {
+  transform: scale(1.1) !important;
+  border: 5px solid #810000 !important;
+  background-color: #0c0c0c !important;
+  box-shadow: 0 0 15px rgb(126, 126, 126);
 }
 
-.card-link{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 35px;
-    font-family: Iran-Sans-Regular1;
-    font-size: smaller;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    transition: all 0.2s ease-in-out;
-
+.card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  font-family: Iran-Sans-Regular1;
+  font-size: smaller;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
-.card-link,.cta-button{
-
-    transition: all 0.2s ease-in-out;
-
+.card-link,
+.cta-button {
+  transition: all 0.2s ease-in-out;
 }
 
-.card-link:hover , .cta-button:hover{
-
-    background-color: #fff;
-    color: var(--primary-color);
-
+.card-link:hover,
+.cta-button:hover {
+  background-color: #fff;
+  color: var(--primary-color);
 }
 
-main section.activity-domain .cards .card-1 .card-1-image ,.card-2 .card-2-image ,.card-3 .card-3-image ,.card-4 .card-4-image ,.card-5 .card-5-image{
-
-    width: 100%;
-    height: 35%;
-    border-radius: 10px;
-    margin-bottom: 5px;
-
+main section.activity-domain .cards .card-1 .card-1-image,
+.card-2 .card-2-image,
+.card-3 .card-3-image,
+.card-4 .card-4-image,
+.card-5 .card-5-image {
+  width: 100%;
+  height: 35%;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
-main section.activity-domain .cards .card-1 .card-1-title ,.card-2 .card-2-title ,.card-3 .card-3-title ,.card-4 .card-4-title ,.card-5 .card-5-title{
-
-    font-family: Iran-Sans-Bold;
-    font-size: 15px;
-
+main section.activity-domain .cards .card-1 .card-1-title,
+.card-2 .card-2-title,
+.card-3 .card-3-title,
+.card-4 .card-4-title,
+.card-5 .card-5-title {
+  font-family: Iran-Sans-Bold;
+  font-size: 15px;
 }
 
-main section.activity-domain .cards .card-1 .card-1-caption ,.card-2 .card-2-caption ,.card-3 .card-3-caption ,.card-4 .card-4-caption ,.card-5 .card-5-caption{
-
-    font-family: Iran-Sans-Light;
-    text-align: justify;
-    font-size: xx-small;
-
+main section.activity-domain .cards .card-1 .card-1-caption,
+.card-2 .card-2-caption,
+.card-3 .card-3-caption,
+.card-4 .card-4-caption,
+.card-5 .card-5-caption {
+  font-family: Iran-Sans-Light;
+  text-align: justify;
+  font-size: xx-small;
 }
 
-main section.activity-domain .cards .card:nth-child(odd){
-
-    align-self: flex-end;
-
+main section.activity-domain .cards .card:nth-child(odd) {
+  align-self: flex-end;
 }
 
-main section.activity-domain .cards .card:nth-child(even){
-
-    align-self: flex-start;
-
+main section.activity-domain .cards .card:nth-child(even) {
+  align-self: flex-start;
 }
 
-
-main section.recruitment{
-
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-
+main section.recruitment {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
-main section.recruitment::before{
-
-    content: '';
-    position: absolute;
-    width: 110%;
-    height: 100vh;
-    transform: rotate(5deg);
-    z-index: -1;
-    background-image: url(../images/home/bacground-image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 -100;
-
+main section.recruitment::before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 100vh;
+  transform: rotate(5deg);
+  z-index: -1;
+  background-image: url(../images/home/bacground-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 -100;
 }
 
-main section.recruitment .title .underline{
-
-    width: 220px;
-
+main section.recruitment .title .underline {
+  width: 220px;
 }
 
-main section.recruitment .content{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 90%;
-    border-radius: 15px;
-    background-color: var(--primary-color);
-
+main section.recruitment .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  border-radius: 15px;
+  background-color: var(--primary-color);
 }
 
-main section.recruitment .content img{
-
-    width: 50%;
-    height: 100%;
-    border-radius: 15px;
-
+main section.recruitment .content img {
+  width: 50%;
+  height: 100%;
+  border-radius: 15px;
 }
 
-main section.recruitment .content .description{
-
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-
+main section.recruitment .content .description {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-main section.recruitment .content .description h1{
-
-    font-family: Iran-Sans-DemiBold;
-    font-size: 40px;
-
+main section.recruitment .content .description h1 {
+  font-family: Iran-Sans-DemiBold;
+  font-size: 40px;
 }
 
-main section.recruitment .content .description p{
-
-    font-family: Iran-Sans-Medium;
-    text-align: justify;
-    font-size: medium;
-    width: 50%;
-
+main section.recruitment .content .description p {
+  font-family: Iran-Sans-Medium;
+  text-align: justify;
+  font-size: medium;
+  width: 70%;
+  line-height: 30px;
 }
 
-main section.photo-gallery{
-
-    width: 100%;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    background-image: url(../images/home/bacground-image.png);
-    background-size: contain;
-    background-position: 0 200px;
-    background-repeat: no-repeat;
-
+main section.photo-gallery {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-image: url(../images/home/bacground-image.png);
+  background-size: contain;
+  background-position: 0 200px;
+  background-repeat: no-repeat;
 }
 
-main section.photo-gallery .title .underline{
-
-    width: 120px;
-
+main section.photo-gallery .title .underline {
+  width: 120px;
 }
 
-main section.photo-gallery .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 90%;
-    border-radius: 15px;
-    padding: 50px;
-    background-color: var(--primary-color);
-
+main section.photo-gallery .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  border-radius: 15px;
+  padding: 50px;
+  background-color: var(--primary-color);
 }
 
-main section.photo-gallery .content .swiper{
-
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-
+main section.photo-gallery .content .swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
-main section.photo-gallery .content .swiper .swiper-button-prev::after , .swiper-button-next::after {
-
-    color: #810000;
-
+main section.photo-gallery .content .swiper .swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #810000;
 }
 
-.swiper-slide{
-
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.swiper-slide {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
