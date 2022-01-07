@@ -1,43 +1,75 @@
-main.spaces {
-  width: 100%;
-  padding: 30px 40px;
+body{
+  font-family: Iran-Sans-Regular1;
+  background-color: hsl(0, 8%, 10%);
+  overflow: hidden;
+  color: #fff;
+  direction: rtl;
 }
 
-.containers {
+.container{
   padding: 30px;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col-2 .row-2::-webkit-scrollbar{
+  width: 6px;
+  background-color: transparent;
+}
+
+.col-2 .row-2::-webkit-scrollbar-button{
+  height: 10px !important;
+  background-color: #e2dfd2;
+  border-radius: 100px;
+}
+
+.col-2 .row-2::-webkit-scrollbar-thumb{
+  background-color: #810000;
+  border-radius: 50px;
+}
+
+.df{
+  display: flex;
+}
+
+.jcc{
+  justify-content: center;
+}
+
+.aic{
+  align-items: center;
 }
 
 .w-100 {
   width: 100%;
-  margin: 0 0 0 10px;
 }
 
 .w-75 {
-  width: 74%;
-  margin: 0 0 0 10px;
+  width: 74.5%;
 }
 
 .w-50 {
-  width: 46%;
-  margin: 0 0 0 10px;
+  width: 49%;
 }
 
 .w-25 {
-  width: 20%;
-  margin: 0 0 0 10px;
+  width: 24%;
 }
 
-.w-125 {
-  width: 10%;
-  margin: 0 0 0 10px;
-}
 
-.inField {
-  margin: 5px;
-}
-
-fieldset {
-  border-radius: 5px;
+.inputs{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 input {
@@ -47,232 +79,97 @@ input {
   background-color: #e2dfd2;
   box-shadow: 0 0 10px #000;
   border-radius: 10px;
-  padding: 0 10px;
+  padding: 3px 10px;
   height: 40px;
+  margin: 10px 0;
 }
 
 select {
-  color: #717171;
-  font-size: small;
-  background-color: #e2dfd2;
-  padding: 8px 5px;
   font-family: Iran-Sans-Regular1;
   border: 0;
+  font-size: small;
+  background-color: #e2dfd2;
+  box-shadow: 0 0 10px #000;
   border-radius: 10px;
+  padding: 3px 10px;
+  height: 40px;
+  margin: 10px 0;
 }
 
 select option {
+  color: #810000;
   font-family: Iran-Sans-Medium;
-  font-size: 15px;
-}
-
-main .form-content {
-  width: 100%;
-  height: 100%;
-  background-color: var(--primary-color);
-  border-radius: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main .form-content .main-col {
-  overflow: hidden;
-  width: 50%;
-  height: 465px;
-  overflow-y: scroll;
-}
-
-main .form-content .main-col::-webkit-scrollbar {
-  width: 5px;
-  background-color: transparent;
-}
-
-main .form-content .main-col::-webkit-scrollbar-thumb {
-  border-radius: 100px;
-  background-color: #000;
-}
-
-main .form-content .main-col .col1 {
-  margin-bottom: 40px;
-  width: 100%;
-  height: 77vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  border-bottom: 1px solid red;
-  border-radius: 15px;
-}
-#one {
-  height: 500px;
-  margin-bottom: 10px;
-}
-#two {
-  height: 500px;
-  margin-bottom: 10px;
-}
-#three {
-  height: 500px;
-  margin-bottom: 10px;
-}
-#four {
-  height: 500px;
-  margin-bottom: 10px;
-}
-#five {
-  height: 500px;
-  margin-bottom: 10px;
-}
-#six {
-  height: 500px;
-  margin-bottom: 10px;
-}
-
-main .form-content .main-col .col1 .row1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  height: 20%;
-}
-
-main .form-content .main-col .col1 .row2 {
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.row2--1 {
-  height: 50% !important;
-}
-
-main .form-content .main-col .col1 .row2--1 .rowsss {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main .form-content .main-col .col1 .row2--1 .rowsss input {
-  box-shadow: none;
-}
-
-main .form-content .main-col .col1 .row2--1 .rowsss .radio {
-  width: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-main .form-content .main-col .col1 .row2--1 .rowsss .radio .inputz div {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main .form-content .main-col .col1 .row2--1 .rowsss .radio label.gender,
-label.married {
-  padding: 6px 10px;
-  font-family: Iran-Sans-Regular1;
-  background-color: #e2dfd2;
-  border-radius: 7px;
-  color: #717171;
-}
-
-main .form-content .main-col .col1 .row3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 15%;
-}
-
-main .form-content .main-col .col1 .row3 button {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: Iran-Sans-Thin;
-  margin: 0 30px;
-  width: 80px;
-  height: 40px;
-  outline: 0;
-  background-color: unset;
-  border: 0.8px solid #fff;
-  border-radius: 6px;
-  color: #fff;
-}
-
-main .form-content .main-col .col1 .row3 button a {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: Iran-Sans-Thin;
-}
-
-main .form-content .main-col .col1 .row1 h1 {
-  font-family: Iran-Sans-Bold;
-  font-size: 30px;
-}
-
-main .form-content .main-col .col1 .row1 h1 span {
-  font-family: Iran-Sans-Black;
-  padding: 1px 6px;
-  background-color: var(--secondry-color);
-  border-radius: 12px;
-}
-
-main .form-content .main-col .col1 .row1 small {
-  margin-top: 3px;
-  font-size: small;
-  font-family: Iran-Sans-Medium;
-}
-
-main .form-content .col2 {
-  width: 30%;
-  height: 100%;
-  margin-right: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../images/recruitment/hannah-olinger-8eSrC43qdro-unsplash.jpg);
+  font-size: 13px;
 }
 
 button:disabled {
   cursor: not-allowed;
 }
-.row2--7 {
-  height: 85% !important;
+
+.col-1{
+  width: 45%;
+  height: 100%;
+  margin: 0 10px;
+  background-image: url(../images/Recruitment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
-.submit-btn {
-  display: flex;
+.col-2{
+  width: 55%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-2 .row-1{
+  justify-content: right;
+  align-items: flex-start;
+  font-family: Iran-Sans-DemiBold;
+  width: 100%;
+  height: 12%;
+
+}
+
+.col-2 .row-1 h1{
+  font-family: Iran-Sans-DemiBold;
+}
+
+.col-2 .row-1 h1 span{
+  padding: 4px 7px;
+  border-radius: 10px;
+  background-color: #810000;
+}
+
+.col-2 .row-2{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  height: 88%;
+  padding: 0 0 0 15px;
+}
+
+.col-2 .row-2 .record-form{
+  width: 100%;
+  height: 350vh;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
-  font-family: Iran-Sans-Thin;
-  margin: 0 30px;
-  width: 80px;
-  height: 40px;
-  outline: 0;
-  background-color: unset;
-  border: 0.8px solid #fff;
-  border-radius: 6px;
-  color: #fff;
-  cursor: pointer;
+}
+
+.col-2 .row-2 .record-form .fieldd{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.personal-info, .further-information, .resume, .educational-background, .familiarity-with-specialized-software, .specialized-courses-provided{
+  height: auto;
+}
+
+h4.title{
+  border-bottom: 3px solid #810000;
 }
