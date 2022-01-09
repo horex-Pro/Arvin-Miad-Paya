@@ -26,6 +26,10 @@
     text-align: center;
   }
 
+  main .mobile-menu-wrraper{
+    display: block;
+  }
+
   main header .hero h1.hero-title {
     font-size: 20px;
     line-height: 60px;

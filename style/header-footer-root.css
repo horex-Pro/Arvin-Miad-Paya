@@ -87,6 +87,110 @@ main header {
   border-radius: 0 0 10px 10px;
 }
 
+/* mobile menu */
+
+main .mobile-menu-wrraper{
+  width: 100%;
+  display: none;
+}
+
+main .mobile-menu-wrraper nav {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main .mobile-menu-wrraper nav .humberger-menu{
+
+  width: 35px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+main .mobile-menu-wrraper nav .humberger-menu .line{
+
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  transform-origin: right;
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+
+}
+
+main .mobile-menu-wrraper nav .humberger-menu-clicked .first{
+
+  transform: rotateZ(-45deg);
+
+}
+
+main .mobile-menu-wrraper nav .humberger-menu-clicked .second{
+
+  transform: translate(5px,20px);
+
+}
+main .mobile-menu-wrraper nav .humberger-menu-clicked .third{
+
+  transform: rotateZ(45deg);
+
+}
+
+main .mobile-menu-wrraper .mobile-menu-zone{
+
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: -100%; 
+  transition: all 0.5s ease;
+
+}
+
+main .mobile-menu-wrraper .mobile-menu-zone ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #111;
+  height: 100vh;
+  padding: 20px 0 20px 0;
+}
+
+main .mobile-menu-wrraper .mobile-menu-zone ul img{
+
+  width: 130px;
+  margin-right: 20%;
+
+}
+main .mobile-menu-wrraper .mobile-menu-zone ul li{
+
+  font-family: Iran-Sans-Light;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-right: 20%;
+
+}
+
+main .mobile-menu-wrraper .mobile-menu-zone ul li i{
+  margin-left: 20px;
+}
+
+main .mobile-menu-wrraper .mobile-menu-zone.mobile-menu-opended{
+
+  position: absolute;
+  right: 0;
+
+}
+
 main nav .navbar-top-part {
   width: 100%;
   height: 50%;
