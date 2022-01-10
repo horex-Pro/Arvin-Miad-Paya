@@ -181,7 +181,6 @@
                   value="مورد جدید"
                 />
               </div>
-			  <input type="submit" class="submit-btn" name="submit"/>
             </div>
           </form>
         </div>
