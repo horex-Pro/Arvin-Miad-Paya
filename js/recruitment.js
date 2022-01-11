@@ -13,6 +13,7 @@ function addResume(){
 }
 function removeResume() {document.querySelector('#removeResumee').parentElement.remove();}
 
+
 function addEducationalBackground(){
     document.querySelector('.educational-background').innerHTML  +=`<div class="inputs">
     <input type="text" class="w-50" placeholder="مقطع تحصیلی">
