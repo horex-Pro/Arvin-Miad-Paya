@@ -31,17 +31,26 @@
   }
 
   main header .hero h1.hero-title {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 60px;
+    margin-top: -250px;
   }
 
   main header .hero .description {
     width: 100%;
     font-size: 15px;
+    margin-top: -60px;
   }
 
   main header .hero .about-cta {
     width: 100%;
+    margin-top: -100px;
+  }
+
+  section.about-us{
+
+    height: auto;
+
   }
 
   main section.activity-domain {
@@ -193,4 +202,31 @@
     align-items: center;
     padding: 10px;
   }
+
+  /* recuitment page responsive */
+  .container.df.aic .col-1 {
+
+    display: none;
+  }
+
+  .container.df.aic .col-2{
+
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .container.df.aic .col-2 .row-1{
+
+    height: 200px;
+    line-height: 70px;
+
+  }
+
+  .container.df.aic .col-2 h1{
+
+    font-size: 32px;
+
+  }
+
 }

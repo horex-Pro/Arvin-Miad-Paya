@@ -84,6 +84,14 @@ input {
   margin: 10px 0;
 }
 
+input.submit-btn{
+
+  font-family: Iran-Sans-Bold;
+  background-color: #810000;
+  color: #fff;
+
+}
+
 select {
   font-family: Iran-Sans-Regular1;
   border: 0;
