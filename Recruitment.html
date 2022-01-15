@@ -26,7 +26,7 @@
         <div class="row-2 df">
           <form class="record-form df" method="post" action="{{ route('recruitment.store') }}" id="recordForm">
             <div class="fieldd personal-info">
-              <h4 class="title">اطلاعات شخصی</h4>
+              <h4 class="title">اطلاعات شخصی <span style="color: #810000;">*</span></h4>
               <br />
               <br />
               <div class="inputs">
@@ -58,7 +58,7 @@
             </div>
 
             <div class="fieldd further-information">
-              <h4 class="title">اطلاعات تکمیلی</h4>
+              <h4 class="title">اطلاعات تکمیلی <span style="color: #810000;">*</span></h4>
               <br />
               <br />
               <div class="inputs">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="fieldd educational-background">
-              <h4 class="title">سوابق تحصیلی</h4>
+              <h4 class="title">سوابق تحصیلی <span style="color: #810000;">*</span></h4>
               <br />
               <br />
 
@@ -210,6 +210,12 @@
                   />
               </div>
               <br>
+              <h4 class="title">فایل رزومه</h4>
+              <br />
+              <br />
+              <div class="inputs">
+                  <input type="file" class="w-100" name="resumeFile"/>
+              </div>
               <input type="submit" class="submit-btn w-100" name="submit" value="ثبت اطلاعات"/>
             </div>
           </form>
