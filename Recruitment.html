@@ -72,7 +72,8 @@
                 />
                 <input type="number" class="w-50" placeholder="تلفن منزل" name="phone"/>
                 <input type="text" class="w-50" placeholder="نام پدر" name="father"/>
-                <input type="file" class="w-50" title="عکس پرسنلی" name="father"/>
+                <label for="image" class="w-50">عکس پرسنلی</label>
+                <input type="file" class="w-50" title="عکس پرسنلی" name="father" id="image" style="visibility: hidden;"/>
                 <input type="text" class="w-100" placeholder="آدرس منزل" name="father"/>
               </div>
             </div>
@@ -214,7 +215,8 @@
               <br />
               <br />
               <div class="inputs">
-                  <input type="file" class="w-100" name="resumeFile"/>
+                <label for="image" class="w-100">فایل رزومه</label>
+                  <input type="file" class="w-100" name="resumeFile" id="resumeFile" style="visibility: hidden;"/>
               </div>
               <input type="submit" class="submit-btn w-100" name="submit" value="ثبت اطلاعات"/>
             </div>
