@@ -1,7 +1,7 @@
 
 let addResumeIndicator = 0;
 function addResume(){
-    addResumeIndicator ++;   
+    addResumeIndicator ++;
     let detail = `<div class="inputs">
     <input type="text" class="w-50" placeholder="نام شرکت" name="jobs[${addResumeIndicator}][factory_name]">
     <input type="number" class="w-50" placeholder="حقوق دریافتی" name="jobs[${addResumeIndicator}][rights]">
@@ -13,7 +13,7 @@ function addResume(){
     <input type="text" class="w-100" placeholder="تاریخ پایان همکاری" name="jobs[${addResumeIndicator}][end_date]" id="endCooperation${addResumeIndicator}">
     <input type="button" onclick="removeResume()" id="removeResumee" class="w-25" value="حذف مورد">
 </div>`;
-    document.querySelector('.resume').innerHTML = detail;  
+    document.querySelector('.resume').innerHTML = detail;
     addResumeIndicator++;
 }
 function removeResume() {document.querySelector('#removeResumee').parentElement.remove();}

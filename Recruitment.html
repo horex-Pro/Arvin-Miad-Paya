@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>استخدام داوطلبان کار در شرکت آروین میعاد پایا</title>
@@ -37,23 +37,18 @@
                   name="name"
                 />
                 <select name="" id="" class="w-25" name="gender">
-                  <option value="gender" disabled >انتخاب جنسیت</option>
+                  <option value="gender">انتخاب جنسیت</option>
                   <option value="0">مرد</option>
                   <option value="1">زن</option>
                 </select>
                 <input type="number" class="w-50" placeholder="شماره تماس" name="mobile"/>
-                <input
-                  type="text"
-                  class="w-100"
-                  id="birthday"
-                  placeholder="تاریخ تولد"
-                  name="birthday"
-                />
                 <select name="marital" class="w-25">
-                  <option value="" disabled>وضعیت تاهل</option>
+                  <option value="">وضعیت تاهل</option>
                   <option value="0">مجرد</option>
                   <option value="1">متاهل</option>
               </select>
+                <input type="text" class="w-100" id="birthday" placeholder="تاریخ تولد" name="birthday"/>
+
               </div>
             </div>
 
@@ -115,17 +110,17 @@
 
             <div class="fieldd educational-background">
               <h4 class="title">سوابق تحصیلی <span style="color: #810000;">*</span></h4>
-              <br />
-              <br />
+              <br/>
+              <br/>
 
               <div class="inputs">
                 <input type="text" class="w-50" placeholder="مقطع تحصیلی" name="edu[0][degree]"/>
                 <input type="number" class="w-25" placeholder="معدل" name="edu[0][GPA]" />
                 <input type="text" class="w-25" placeholder="گرایش" name="edu[0][trend]" />
                 <input type="text" class="w-50" placeholder="نام دانشگاه" name="edu[0][uni]" />
-                <input type="text" class="w-50" placeholder="رشته تحصیلی" name="edu[0][fields]" />
-                <input type="text" class="w-75" placeholder="تاریخ شروع" name="edu[0][start_date]" id="startLearn" />
-                <input type="text" class="w-75" placeholder="تاریخ پایان" name="edu[0][end_date]" id="endLearn" />
+                <input type="text" class="w-50" placeholder="رشته تحصیلی" name="edu[0][fields]"/>
+                <input type="text" class="w-75" placeholder="تاریخ شروع" name="edu[0][start_date]" id="startLearn"/>
+                <input type="text" class="w-75" placeholder="تاریخ پایان" name="edu[0][end_date]" id="endLearn"/>
                 <input
                   type="button"
                   onclick="addEducationalBackground()"
@@ -143,21 +138,21 @@
               <div class="inputs">
                 <input type="text" class="w-100" placeholder="نام زبان" name="lang[0][name]"/>
                 <select class="w-25" id="speaking" name="lang[0][conversation]">
-                    <option value=""disabled>مکالمه</option>
+                    <option value="">مکالمه</option>
                     <option value="3">عالی</option>
                     <option value="2">خوب</option>
                     <option value="1">متوسط</option>
                     <option value="0">ضعیف</option>
                 </select>
                 <select class="w-25" id="reading" name="lang[0][read]">
-                    <option value="" disabled>خواندن</option>
+                    <option value="" >خواندن</option>
                     <option value="3">عالی</option>
                     <option value="2">خوب</option>
                     <option value="1">متوسط</option>
                     <option value="0">ضعیف</option>
                 </select>
                 <select class="w-25" id="writing" name="lang[0][write]">
-                    <option value="" disabled>نوشتن</option>
+                    <option value="" >نوشتن</option>
                     <option value="3">عالی</option>
                     <option value="2">خوب</option>
                     <option value="1">متوسط</option>
@@ -179,7 +174,7 @@
               <div class="inputs">
                   <input type="text" class="w-50" placeholder="نام نرم افزار" name="soft[0][name]"/>
                   <select class="w-25" id="knowledge" name="soft[0][degree]">
-                      <option value="" disabled>میزان آشنایی</option>
+                      <option value="">میزان آشنایی</option>
                       <option value="3">عالی</option>
                       <option value="2">خوب</option>
                       <option value="1">متوسط</option>
@@ -199,18 +194,14 @@
               <br />
               <br />
               <div class="inputs">
-                  <input type="text" class="w-50" placeholder="نام دوره" name="courses[0][name]"/>
-                  <input type="text" class="w-50" placeholder="محل برگزاری" name="courses[0][address]" />
-                  <input type="text" class="w-25" placeholder="مدت دوره" name="courses[0][time]" />
-                  <input type="text" class="w-75" placeholder="تاریخ دوره" id="coursesDate" name="courses[0][date]" />
-                  <input
-                      type="button"
-                      onclick="addSpecializedCoursesProvided()"
-                      class="w-25"
-                      value="مورد جدید"
-                  />
+                  <input type="text" class="w-50" placeholder="نام دوره" name="courses[0][name]">
+                  <input type="text" class="w-50" placeholder="محل برگزاری" name="courses[0][address]">
+                  <input type="text" class="w-25" placeholder="مدت دوره" name="courses[0][time]">
+                  <input type="text" class="w-75" placeholder="تاریخ دوره" id="coursesDate" name="courses[0][date]" >
+                  <input type="button" onclick="addSpecializedCoursesProvided()" class="w-25" value="مورد جدید">
               </div>
-              <br>
+            </div>
+            <div class="fieldd">
               <h4 class="title">فایل رزومه</h4>
               <br />
               <br />
@@ -218,8 +209,8 @@
                 <label for="image" class="w-100">فایل رزومه</label>
                   <input type="file" class="w-100" name="resumeFile" id="resumeFile" style="visibility: hidden;"/>
               </div>
-              <input type="submit" class="submit-btn w-100" name="submit" value="ثبت اطلاعات"/>
             </div>
+            <input type="submit" class="submit-btn w-50" name="submit" value="ثبت اطلاعات">
           </form>
         </div>
       </div>
